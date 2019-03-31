@@ -1,0 +1,2044 @@
+****cv 0 / 20 ****
+INFO:runner.model.base_runner:****cv 0 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2758
+INFO:model.model_wrapper:valid with data size: 146
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.2621212 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.39062 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1450114 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.32401 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.32401
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:17<20:18, 17.67s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1089877 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.61764 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1330273 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.60698 :
+INFO:model.model_wrapper:validation score is improved from 0.32401 to 0.60698
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:32<19:04, 16.83s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0710939 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.76418 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.2944001 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.30590 :
+  4%|▍         | 3/70 [00:47<18:18, 16.39s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0409072 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.86693 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1031638 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.56397 :
+  6%|▌         | 4/70 [01:03<17:41, 16.09s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0213297 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.94528 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1218143 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.37732 :
+  7%|▋         | 5/70 [01:18<17:13, 15.89s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0132254 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.97454 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0874575 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.79001 :
+INFO:model.model_wrapper:validation score is improved from 0.60698 to 0.79001
+INFO:model.model_wrapper:Checkpoint saved
+  9%|▊         | 6/70 [01:34<16:50, 15.79s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0080820 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.2355422 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.52078 :
+ 10%|█         | 7/70 [01:49<16:28, 15.68s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0072883 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99370 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0838470 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.48036 :
+ 11%|█▏        | 8/70 [02:04<15:59, 15.47s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0059235 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.1595929 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.68911 :
+ 13%|█▎        | 9/70 [02:20<15:40, 15.42s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0055179 :
+INFO:model.model_wrapper:******train score at epoch 10: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0937436 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.57811 :
+ 14%|█▍        | 10/70 [02:35<15:26, 15.45s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0037960 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1766899 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.36436 :
+ 16%|█▌        | 11/70 [02:50<15:02, 15.30s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0046966 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.2772983 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.57811 :
+ 17%|█▋        | 12/70 [03:06<14:52, 15.38s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0027809 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.2900224 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.66424 :
+ 19%|█▊        | 13/70 [03:21<14:34, 15.33s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0026782 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.0876475 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.57811 :
+ 20%|██        | 14/70 [03:36<14:14, 15.25s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0022711 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.1607168 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.48036 :
+ 21%|██▏       | 15/70 [03:51<13:55, 15.19s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0018854 :
+INFO:model.model_wrapper:******train score at epoch 16: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.1465855 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.57811 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 1 / 20 ****
+INFO:runner.model.base_runner:****cv 1 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2758
+INFO:model.model_wrapper:valid with data size: 146
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.2914265 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.35738 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1527024 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.21480 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.21480
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:56, 15.61s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1027717 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.66960 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.2715260 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.45980 :
+INFO:model.model_wrapper:validation score is improved from 0.21480 to 0.45980
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:31<17:44, 15.66s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0620522 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.79032 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.1770008 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.60698 :
+INFO:model.model_wrapper:validation score is improved from 0.45980 to 0.60698
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:47<17:31, 15.69s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0305811 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.93865 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1430368 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.36436 :
+  6%|▌         | 4/70 [01:02<17:03, 15.50s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0203921 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.95185 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1067966 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.30590 :
+  7%|▋         | 5/70 [01:17<16:47, 15.50s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0152740 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.96497 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1136909 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.40795 :
+  9%|▊         | 6/70 [01:32<16:27, 15.43s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0123517 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.97775 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1203940 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.42152 :
+ 10%|█         | 7/70 [01:48<16:06, 15.34s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0139576 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.97458 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.1910687 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.56397 :
+ 11%|█▏        | 8/70 [02:03<15:57, 15.44s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0125412 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.97479 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.1308342 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.42152 :
+ 13%|█▎        | 9/70 [02:19<15:38, 15.39s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0071614 :
+INFO:model.model_wrapper:******train score at epoch 10: 0.99051 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.2232250 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.37732 :
+ 14%|█▍        | 10/70 [02:34<15:27, 15.46s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0085623 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.98734 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1275804 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.42152 :
+ 16%|█▌        | 11/70 [02:49<15:07, 15.39s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0079844 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.98100 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1213750 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.42152 :
+ 17%|█▋        | 12/70 [03:05<14:49, 15.33s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0042725 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.1502032 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.48036 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 2 / 20 ****
+INFO:runner.model.base_runner:****cv 2 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2758
+INFO:model.model_wrapper:valid with data size: 146
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.2967964 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.35894 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1271249 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.60896 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.60896
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<18:04, 15.72s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1289352 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.58657 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.0923842 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.78702 :
+INFO:model.model_wrapper:validation score is improved from 0.60896 to 0.78702
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:30<17:35, 15.53s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0783567 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.74930 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0705432 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.81981 :
+INFO:model.model_wrapper:validation score is improved from 0.78702 to 0.81981
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:46<17:21, 15.54s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0479252 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.87810 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0883455 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.87555 :
+INFO:model.model_wrapper:validation score is improved from 0.81981 to 0.87555
+INFO:model.model_wrapper:Checkpoint saved
+  6%|▌         | 4/70 [01:01<17:00, 15.46s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0314324 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.93201 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1316684 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.73471 :
+  7%|▋         | 5/70 [01:17<16:49, 15.54s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0180421 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.97132 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1019987 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.64477 :
+  9%|▊         | 6/70 [01:32<16:26, 15.42s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0122469 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99051 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.0654858 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.79001 :
+ 10%|█         | 7/70 [01:47<16:07, 15.36s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0092366 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.1431616 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.68911 :
+ 11%|█▏        | 8/70 [02:03<15:57, 15.45s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0074725 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0602772 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.79001 :
+ 13%|█▎        | 9/70 [02:18<15:35, 15.33s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0055926 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.1374846 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.76318 :
+ 14%|█▍        | 10/70 [02:33<15:22, 15.37s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0048925 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.0799299 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.79001 :
+ 16%|█▌        | 11/70 [02:49<15:11, 15.45s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0037419 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.0301421 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.83247 :
+ 17%|█▋        | 12/70 [03:04<14:55, 15.43s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0032723 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.0284577 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.81425 :
+ 19%|█▊        | 13/70 [03:20<14:42, 15.49s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0030584 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.0856910 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.74225 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 3 / 20 ****
+INFO:runner.model.base_runner:****cv 3 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2758
+INFO:model.model_wrapper:valid with data size: 146
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.4409477 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.26848 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.2269776 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.45980 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.45980
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:24, 15.14s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1470284 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.49633 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1103516 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.32401 :
+  3%|▎         | 2/70 [00:30<17:19, 15.28s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0879918 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.71924 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.1449195 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.32401 :
+  4%|▍         | 3/70 [00:46<17:10, 15.37s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0545550 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.84913 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0722821 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.45980 :
+  6%|▌         | 4/70 [01:01<16:52, 15.33s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0333398 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.93219 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1016895 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.60896 :
+INFO:model.model_wrapper:validation score is improved from 0.45980 to 0.60896
+INFO:model.model_wrapper:Checkpoint saved
+  7%|▋         | 5/70 [01:17<16:38, 15.36s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0220962 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.97454 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0577301 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.57811 :
+  9%|▊         | 6/70 [01:32<16:24, 15.39s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0143257 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.98095 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1706269 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.76318 :
+INFO:model.model_wrapper:validation score is improved from 0.60896 to 0.76318
+INFO:model.model_wrapper:Checkpoint saved
+ 10%|█         | 7/70 [01:47<16:06, 15.35s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0093475 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0897418 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.73471 :
+ 11%|█▏        | 8/70 [02:02<15:50, 15.33s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0085206 :
+INFO:model.model_wrapper:******train score at epoch 9: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0708221 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.57811 :
+ 13%|█▎        | 9/70 [02:18<15:41, 15.44s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0066827 :
+INFO:model.model_wrapper:******train score at epoch 10: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0967797 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.64477 :
+ 14%|█▍        | 10/70 [02:34<15:27, 15.46s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0071563 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1936751 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.65482 :
+ 16%|█▌        | 11/70 [02:49<15:15, 15.51s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0309702 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.93940 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.3661276 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.48036 :
+ 17%|█▋        | 12/70 [03:05<14:59, 15.51s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0154803 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.97132 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.0936589 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.32401 :
+ 19%|█▊        | 13/70 [03:20<14:46, 15.55s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0107763 :
+INFO:model.model_wrapper:******train score at epoch 14: 0.98096 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.1198246 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.56397 :
+ 20%|██        | 14/70 [03:36<14:32, 15.59s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0055072 :
+INFO:model.model_wrapper:******train score at epoch 15: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.2727697 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.48036 :
+ 21%|██▏       | 15/70 [03:51<14:09, 15.44s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0036389 :
+INFO:model.model_wrapper:******train score at epoch 16: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.1614118 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.66424 :
+ 23%|██▎       | 16/70 [04:07<13:55, 15.48s/it]INFO:model.model_wrapper:training 17  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 17: 0.0033375 :
+INFO:model.model_wrapper:******train score at epoch 17: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 17: 0.0812956 :
+INFO:model.model_wrapper:******valid score at epoch 17: 0.74225 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 4 / 20 ****
+INFO:runner.model.base_runner:****cv 4 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2758
+INFO:model.model_wrapper:valid with data size: 146
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3092546 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.37224 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1388712 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.model_wrapper:******valid score at epoch 1: 0.00000 :
+  1%|▏         | 1/70 [00:15<17:24, 15.13s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1176839 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.53357 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.0610756 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.57811 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.57811
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:30<17:21, 15.32s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0687063 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.80546 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.1532149 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.56511 :
+  4%|▍         | 3/70 [00:46<17:04, 15.29s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0378429 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.91861 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0636818 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.66424 :
+INFO:model.model_wrapper:validation score is improved from 0.57811 to 0.66424
+INFO:model.model_wrapper:Checkpoint saved
+  6%|▌         | 4/70 [01:01<16:55, 15.38s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0231503 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.95509 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.0692090 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.73471 :
+INFO:model.model_wrapper:validation score is improved from 0.66424 to 0.73471
+INFO:model.model_wrapper:Checkpoint saved
+  7%|▋         | 5/70 [01:17<16:46, 15.49s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0136114 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.98095 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0701214 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.65482 :
+  9%|▊         | 6/70 [01:33<16:35, 15.56s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0093055 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1576528 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.65482 :
+ 10%|█         | 7/70 [01:48<16:17, 15.52s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0068106 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.2041629 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.66424 :
+ 11%|█▏        | 8/70 [02:04<16:03, 15.54s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0055153 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.1605118 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.66424 :
+ 13%|█▎        | 9/70 [02:19<15:40, 15.42s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0047198 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.2429200 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.57811 :
+ 14%|█▍        | 10/70 [02:34<15:29, 15.49s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0056406 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.0797624 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.66424 :
+ 16%|█▌        | 11/70 [02:50<15:07, 15.39s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0109129 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.97788 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.2482921 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.45980 :
+ 17%|█▋        | 12/70 [03:05<14:56, 15.46s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0224464 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.95192 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.0599064 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.73471 :
+ 19%|█▊        | 13/70 [03:20<14:31, 15.29s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0086644 :
+INFO:model.model_wrapper:******train score at epoch 14: 0.98739 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.0995204 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.56511 :
+ 20%|██        | 14/70 [03:36<14:20, 15.37s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0085923 :
+INFO:model.model_wrapper:******train score at epoch 15: 0.98415 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.1999898 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.56511 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 5 / 20 ****
+INFO:runner.model.base_runner:****cv 5 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2758
+INFO:model.model_wrapper:valid with data size: 146
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.4984780 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.28812 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.2103695 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.56511 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.56511
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:38, 15.33s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1357722 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.59997 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1599147 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.52636 :
+  3%|▎         | 2/70 [00:30<17:18, 15.27s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0822276 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.76898 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.1873733 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.54543 :
+  4%|▍         | 3/70 [00:46<17:10, 15.39s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0491973 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.87046 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1281976 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.34237 :
+  6%|▌         | 4/70 [01:01<16:56, 15.40s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0259753 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.96486 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1101290 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.43884 :
+  7%|▋         | 5/70 [01:17<16:45, 15.48s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0186245 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.98733 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.2789074 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.47566 :
+  9%|▊         | 6/70 [01:32<16:24, 15.38s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0117210 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1515908 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.47566 :
+ 10%|█         | 7/70 [01:47<16:02, 15.29s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0118725 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.97775 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.1367392 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.52078 :
+ 11%|█▏        | 8/70 [02:02<15:46, 15.26s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0088436 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.2566812 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.30590 :
+ 13%|█▎        | 9/70 [02:18<15:36, 15.36s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0074156 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.1375314 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.48036 :
+ 14%|█▍        | 10/70 [02:33<15:20, 15.34s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0061381 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.2963079 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.57811 :
+INFO:model.model_wrapper:validation score is improved from 0.56511 to 0.57811
+INFO:model.model_wrapper:Checkpoint saved
+ 16%|█▌        | 11/70 [02:49<15:11, 15.45s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0092265 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.98733 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1202745 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.57811 :
+ 17%|█▋        | 12/70 [03:04<14:57, 15.47s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0350423 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.91572 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.2840053 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.37732 :
+ 19%|█▊        | 13/70 [03:20<14:45, 15.54s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0238576 :
+INFO:model.model_wrapper:******train score at epoch 14: 0.92550 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.3742540 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.52078 :
+ 20%|██        | 14/70 [03:35<14:29, 15.52s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0109470 :
+INFO:model.model_wrapper:******train score at epoch 15: 0.97775 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.1850305 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.52078 :
+ 21%|██▏       | 15/70 [03:51<14:15, 15.56s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0095250 :
+INFO:model.model_wrapper:******train score at epoch 16: 0.98096 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.2461618 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.21480 :
+ 23%|██▎       | 16/70 [04:06<13:51, 15.41s/it]INFO:model.model_wrapper:training 17  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 17: 0.0086566 :
+INFO:model.model_wrapper:******train score at epoch 17: 0.98415 :
+INFO:model.model_wrapper:******valid loss at epoch 17: 0.1354986 :
+INFO:model.model_wrapper:******valid score at epoch 17: 0.52078 :
+ 24%|██▍       | 17/70 [04:22<13:39, 15.46s/it]INFO:model.model_wrapper:training 18  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 18: 0.0048832 :
+INFO:model.model_wrapper:******train score at epoch 18: 0.98733 :
+INFO:model.model_wrapper:******valid loss at epoch 18: 0.1378258 :
+INFO:model.model_wrapper:******valid score at epoch 18: 0.47566 :
+ 26%|██▌       | 18/70 [04:37<13:23, 15.45s/it]INFO:model.model_wrapper:training 19  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 19: 0.0051083 :
+INFO:model.model_wrapper:******train score at epoch 19: 0.99052 :
+INFO:model.model_wrapper:******valid loss at epoch 19: 0.1851362 :
+INFO:model.model_wrapper:******valid score at epoch 19: 0.37732 :
+ 27%|██▋       | 19/70 [04:52<13:01, 15.32s/it]INFO:model.model_wrapper:training 20  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 20: 0.0037192 :
+INFO:model.model_wrapper:******train score at epoch 20: 0.99686 :
+INFO:model.model_wrapper:******valid loss at epoch 20: 0.1863075 :
+INFO:model.model_wrapper:******valid score at epoch 20: 0.52078 :
+ 29%|██▊       | 20/70 [05:08<12:52, 15.44s/it]INFO:model.model_wrapper:training 21  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 21: 0.0022689 :
+INFO:model.model_wrapper:******train score at epoch 21: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 21: 0.4428478 :
+INFO:model.model_wrapper:******valid score at epoch 21: 0.57811 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 6 / 20 ****
+INFO:runner.model.base_runner:****cv 6 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.2948505 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.32600 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.2283761 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.52061 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.52061
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:30, 15.23s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.0986843 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.68884 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.2052607 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.52061 :
+  3%|▎         | 2/70 [00:30<17:13, 15.20s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0604745 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.82894 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.1572981 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.48022 :
+  4%|▍         | 3/70 [00:45<16:54, 15.14s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0404213 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.89483 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1131851 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.65474 :
+INFO:model.model_wrapper:validation score is improved from 0.52061 to 0.65474
+INFO:model.model_wrapper:Checkpoint saved
+  6%|▌         | 4/70 [01:00<16:40, 15.16s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0284104 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.92605 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1471485 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.40768 :
+  7%|▋         | 5/70 [01:15<16:22, 15.11s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0125885 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.98733 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.3306184 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.31341 :
+  9%|▊         | 6/70 [01:31<16:17, 15.28s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0080396 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99686 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1347781 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.42133 :
+ 10%|█         | 7/70 [01:46<16:01, 15.26s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0069474 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99370 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.1165421 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.48022 :
+ 11%|█▏        | 8/70 [02:02<15:52, 15.37s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0062111 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.2328508 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.36422 :
+ 13%|█▎        | 9/70 [02:17<15:36, 15.35s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0043986 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.4876642 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.48022 :
+ 14%|█▍        | 10/70 [02:32<15:24, 15.41s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0043314 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.2290421 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.48022 :
+ 16%|█▌        | 11/70 [02:48<15:11, 15.45s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0040854 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.3731117 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.42133 :
+ 17%|█▋        | 12/70 [03:04<14:59, 15.51s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0025454 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.2990469 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.42133 :
+ 19%|█▊        | 13/70 [03:19<14:43, 15.50s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0025888 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.1606913 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.52061 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 7 / 20 ****
+INFO:runner.model.base_runner:****cv 7 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3679048 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.30171 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1655305 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.66412 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.66412
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:23, 15.13s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1212386 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.58042 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1011385 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.73463 :
+INFO:model.model_wrapper:validation score is improved from 0.66412 to 0.73463
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:30<17:20, 15.30s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0720242 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.77495 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.1707375 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.87550 :
+INFO:model.model_wrapper:validation score is improved from 0.73463 to 0.87550
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:46<17:03, 15.28s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0444929 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.91201 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0653323 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.74215 :
+  6%|▌         | 4/70 [01:01<16:57, 15.42s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0280235 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.95512 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1759251 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.87550 :
+  7%|▋         | 5/70 [01:16<16:37, 15.35s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0177017 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.97454 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1406923 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.71959 :
+  9%|▊         | 6/70 [01:32<16:28, 15.45s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0107488 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.0452578 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.80764 :
+ 10%|█         | 7/70 [01:48<16:13, 15.45s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0074721 :
+INFO:model.model_wrapper:******train score at epoch 8: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.1948100 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.65474 :
+ 11%|█▏        | 8/70 [02:03<16:00, 15.50s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0070758 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0491109 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.80764 :
+ 13%|█▎        | 9/70 [02:18<15:39, 15.41s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0051076 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0604943 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.80764 :
+ 14%|█▍        | 10/70 [02:34<15:29, 15.50s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0052523 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.99686 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1752594 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.80764 :
+ 16%|█▌        | 11/70 [02:49<15:10, 15.43s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0271032 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.92396 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.0866960 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.74215 :
+ 17%|█▋        | 12/70 [03:05<14:57, 15.48s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0345059 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.88855 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.1257443 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.76307 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 8 / 20 ****
+INFO:runner.model.base_runner:****cv 8 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3884220 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.22552 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1800559 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.57798 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.57798
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:57, 15.62s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1268374 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.55939 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1394729 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.66412 :
+INFO:model.model_wrapper:validation score is improved from 0.57798 to 0.66412
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:31<17:39, 15.57s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0791350 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.74532 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0727706 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.64461 :
+  4%|▍         | 3/70 [00:46<17:22, 15.56s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0495068 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.87043 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1432061 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.61962 :
+  6%|▌         | 4/70 [01:02<17:06, 15.55s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0306842 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.94864 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1420433 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.64461 :
+  7%|▋         | 5/70 [01:17<16:51, 15.56s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0182109 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.98095 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0779707 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.52614 :
+  9%|▊         | 6/70 [01:33<16:36, 15.57s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0113036 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.0999216 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.64461 :
+ 10%|█         | 7/70 [01:48<16:14, 15.47s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0076628 :
+INFO:model.model_wrapper:******train score at epoch 8: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0642967 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.56379 :
+ 11%|█▏        | 8/70 [02:03<15:56, 15.43s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0061125 :
+INFO:model.model_wrapper:******train score at epoch 9: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.2359701 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.66412 :
+ 13%|█▎        | 9/70 [02:19<15:46, 15.51s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0048431 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.1681571 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.71959 :
+INFO:model.model_wrapper:validation score is improved from 0.66412 to 0.71959
+INFO:model.model_wrapper:Checkpoint saved
+ 14%|█▍        | 10/70 [02:35<15:30, 15.51s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0043986 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1075658 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.56379 :
+ 16%|█▌        | 11/70 [02:50<15:19, 15.58s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0043219 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1306713 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.57798 :
+ 17%|█▋        | 12/70 [03:06<15:05, 15.61s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0033944 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.0818972 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.71959 :
+ 19%|█▊        | 13/70 [03:21<14:42, 15.49s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0046948 :
+INFO:model.model_wrapper:******train score at epoch 14: 0.99051 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.1072230 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.76307 :
+INFO:model.model_wrapper:validation score is improved from 0.71959 to 0.76307
+INFO:model.model_wrapper:Checkpoint saved
+ 20%|██        | 14/70 [03:36<14:19, 15.35s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0043456 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.1123701 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.81417 :
+INFO:model.model_wrapper:validation score is improved from 0.76307 to 0.81417
+INFO:model.model_wrapper:Checkpoint saved
+ 21%|██▏       | 15/70 [03:52<14:11, 15.48s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0030811 :
+INFO:model.model_wrapper:******train score at epoch 16: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.0569079 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.64461 :
+ 23%|██▎       | 16/70 [04:07<13:51, 15.40s/it]INFO:model.model_wrapper:training 17  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 17: 0.0028689 :
+INFO:model.model_wrapper:******train score at epoch 17: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 17: 0.1153778 :
+INFO:model.model_wrapper:******valid score at epoch 17: 0.76307 :
+ 24%|██▍       | 17/70 [04:23<13:37, 15.42s/it]INFO:model.model_wrapper:training 18  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 18: 0.0019914 :
+INFO:model.model_wrapper:******train score at epoch 18: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 18: 0.0557014 :
+INFO:model.model_wrapper:******valid score at epoch 18: 0.74215 :
+ 26%|██▌       | 18/70 [04:38<13:22, 15.44s/it]INFO:model.model_wrapper:training 19  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 19: 0.0019843 :
+INFO:model.model_wrapper:******train score at epoch 19: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 19: 0.0581357 :
+INFO:model.model_wrapper:******valid score at epoch 19: 0.76307 :
+ 27%|██▋       | 19/70 [04:54<13:13, 15.56s/it]INFO:model.model_wrapper:training 20  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 20: 0.0018888 :
+INFO:model.model_wrapper:******train score at epoch 20: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 20: 0.0634683 :
+INFO:model.model_wrapper:******valid score at epoch 20: 0.65474 :
+ 29%|██▊       | 20/70 [05:09<12:50, 15.41s/it]INFO:model.model_wrapper:training 21  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 21: 0.0018004 :
+INFO:model.model_wrapper:******train score at epoch 21: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 21: 0.0613019 :
+INFO:model.model_wrapper:******valid score at epoch 21: 0.81417 :
+ 30%|███       | 21/70 [05:24<12:31, 15.33s/it]INFO:model.model_wrapper:training 22  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 22: 0.0018606 :
+INFO:model.model_wrapper:******train score at epoch 22: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 22: 0.2560288 :
+INFO:model.model_wrapper:******valid score at epoch 22: 0.68196 :
+ 31%|███▏      | 22/70 [05:40<12:20, 15.43s/it]INFO:model.model_wrapper:training 23  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 23: 0.0104897 :
+INFO:model.model_wrapper:******train score at epoch 23: 0.98739 :
+INFO:model.model_wrapper:******valid loss at epoch 23: 0.2058402 :
+INFO:model.model_wrapper:******valid score at epoch 23: 0.64461 :
+ 33%|███▎      | 23/70 [05:55<12:02, 15.37s/it]INFO:model.model_wrapper:training 24  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 24: 0.0473113 :
+INFO:model.model_wrapper:******train score at epoch 24: 0.83991 :
+INFO:model.model_wrapper:******valid loss at epoch 24: 0.0944149 :
+INFO:model.model_wrapper:******valid score at epoch 24: 0.78991 :
+ 34%|███▍      | 24/70 [06:11<11:50, 15.45s/it]INFO:model.model_wrapper:training 25  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 25: 0.0250758 :
+INFO:model.model_wrapper:******train score at epoch 25: 0.89201 :
+INFO:model.model_wrapper:******valid loss at epoch 25: 0.0507068 :
+INFO:model.model_wrapper:******valid score at epoch 25: 0.81417 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 9 / 20 ****
+INFO:runner.model.base_runner:****cv 9 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3525248 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.29013 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.2310234 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.60881 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.60881
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:14<17:06, 14.88s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1260162 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.63334 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1229933 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.43860 :
+  3%|▎         | 2/70 [00:30<17:07, 15.12s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0745986 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.81831 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0986566 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.57798 :
+  4%|▍         | 3/70 [00:45<16:52, 15.11s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0369044 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.94528 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0950364 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.52061 :
+  6%|▌         | 4/70 [01:01<16:49, 15.29s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0253632 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.96162 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.0954983 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.65474 :
+INFO:model.model_wrapper:validation score is improved from 0.60881 to 0.65474
+INFO:model.model_wrapper:Checkpoint saved
+  7%|▋         | 5/70 [01:17<16:44, 15.46s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0200972 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.96486 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1442888 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.45972 :
+  9%|▊         | 6/70 [01:32<16:25, 15.39s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0176363 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.96809 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.2406301 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.52061 :
+ 10%|█         | 7/70 [01:47<16:05, 15.33s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0120276 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.98095 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.1900414 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.57798 :
+ 11%|█▏        | 8/70 [02:02<15:45, 15.26s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0072368 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.1033031 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.73463 :
+INFO:model.model_wrapper:validation score is improved from 0.65474 to 0.73463
+INFO:model.model_wrapper:Checkpoint saved
+ 13%|█▎        | 9/70 [02:18<15:38, 15.39s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0051219 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.1031714 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.65474 :
+ 14%|█▍        | 10/70 [02:33<15:18, 15.31s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0052680 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1211594 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.65474 :
+ 16%|█▌        | 11/70 [02:48<14:59, 15.25s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0037127 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1285880 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.42133 :
+ 17%|█▋        | 12/70 [03:04<14:53, 15.41s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0029211 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.2798446 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.65474 :
+ 19%|█▊        | 13/70 [03:19<14:36, 15.38s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0028242 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.2910633 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.48022 :
+ 20%|██        | 14/70 [03:35<14:25, 15.45s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0025009 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.1148078 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.57798 :
+ 21%|██▏       | 15/70 [03:50<14:05, 15.37s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0023002 :
+INFO:model.model_wrapper:******train score at epoch 16: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.1183106 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.65474 :
+ 23%|██▎       | 16/70 [04:06<13:57, 15.51s/it]INFO:model.model_wrapper:training 17  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 17: 0.0018847 :
+INFO:model.model_wrapper:******train score at epoch 17: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 17: 0.2410958 :
+INFO:model.model_wrapper:******valid score at epoch 17: 0.52061 :
+ 24%|██▍       | 17/70 [04:21<13:34, 15.36s/it]INFO:model.model_wrapper:training 18  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 18: 0.0017641 :
+INFO:model.model_wrapper:******train score at epoch 18: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 18: 0.2619856 :
+INFO:model.model_wrapper:******valid score at epoch 18: 0.65474 :
+ 26%|██▌       | 18/70 [04:37<13:25, 15.50s/it]INFO:model.model_wrapper:training 19  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 19: 0.0016283 :
+INFO:model.model_wrapper:******train score at epoch 19: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 19: 0.1208783 :
+INFO:model.model_wrapper:******valid score at epoch 19: 0.65474 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 10 / 20 ****
+INFO:runner.model.base_runner:****cv 10 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.4339589 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.29296 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1805888 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.48022 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.48022
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:14<17:13, 14.98s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1437000 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.56075 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1032914 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.model_wrapper:******valid score at epoch 2: 0.00000 :
+  3%|▎         | 2/70 [00:30<17:11, 15.17s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0874933 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.73188 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0873259 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.45972 :
+  4%|▍         | 3/70 [00:46<17:05, 15.30s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0653794 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.80194 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1050124 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.60881 :
+INFO:model.model_wrapper:validation score is improved from 0.48022 to 0.60881
+INFO:model.model_wrapper:Checkpoint saved
+  6%|▌         | 4/70 [01:01<16:51, 15.32s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0402465 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.90520 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1785878 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.56379 :
+  7%|▋         | 5/70 [01:16<16:32, 15.27s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0207679 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.96809 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0736951 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.73463 :
+INFO:model.model_wrapper:validation score is improved from 0.60881 to 0.73463
+INFO:model.model_wrapper:Checkpoint saved
+  9%|▊         | 6/70 [01:32<16:23, 15.37s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0134966 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.0666023 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.66412 :
+ 10%|█         | 7/70 [01:47<16:04, 15.32s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0104411 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.98733 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0657060 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.66412 :
+ 11%|█▏        | 8/70 [02:02<15:47, 15.28s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0077510 :
+INFO:model.model_wrapper:******train score at epoch 9: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.1870465 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.73463 :
+ 13%|█▎        | 9/70 [02:17<15:28, 15.22s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0072252 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.1261659 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.66412 :
+ 14%|█▍        | 10/70 [02:33<15:22, 15.38s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0092456 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.99052 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1980097 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.73463 :
+ 16%|█▌        | 11/70 [02:49<15:10, 15.43s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0074783 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1189608 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.52614 :
+ 17%|█▋        | 12/70 [03:04<14:57, 15.47s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0060465 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.99051 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.1873625 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.56379 :
+ 19%|█▊        | 13/70 [03:20<14:45, 15.54s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0044762 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.3642794 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.65474 :
+ 20%|██        | 14/70 [03:35<14:25, 15.45s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0037792 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.0969928 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.60881 :
+ 21%|██▏       | 15/70 [03:50<14:05, 15.37s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0038501 :
+INFO:model.model_wrapper:******train score at epoch 16: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.1754126 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.60881 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 11 / 20 ****
+INFO:runner.model.base_runner:****cv 11 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3205032 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.30411 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1604092 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.57798 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.57798
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:14<17:13, 14.98s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1206371 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.61858 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.0888542 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.68898 :
+INFO:model.model_wrapper:validation score is improved from 0.57798 to 0.68898
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:30<17:11, 15.17s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0737762 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.79774 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0648301 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.57798 :
+  4%|▍         | 3/70 [00:46<17:08, 15.35s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0403119 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.89483 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0558138 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.57798 :
+  6%|▌         | 4/70 [01:01<16:48, 15.28s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0255252 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.95846 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1380066 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.76307 :
+INFO:model.model_wrapper:validation score is improved from 0.68898 to 0.76307
+INFO:model.model_wrapper:Checkpoint saved
+  7%|▋         | 5/70 [01:17<16:39, 15.38s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0151893 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.98733 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1300275 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.78991 :
+INFO:model.model_wrapper:validation score is improved from 0.76307 to 0.78991
+INFO:model.model_wrapper:Checkpoint saved
+  9%|▊         | 6/70 [01:32<16:32, 15.51s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0113073 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1005860 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.76307 :
+ 10%|█         | 7/70 [01:48<16:14, 15.47s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0079553 :
+INFO:model.model_wrapper:******train score at epoch 8: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0813283 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.76307 :
+ 11%|█▏        | 8/70 [02:03<15:52, 15.36s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0110572 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.98100 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0837322 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.71959 :
+ 13%|█▎        | 9/70 [02:18<15:33, 15.30s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0120268 :
+INFO:model.model_wrapper:******train score at epoch 10: 0.97144 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0714844 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.60881 :
+ 14%|█▍        | 10/70 [02:33<15:18, 15.31s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0164720 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.95512 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.3877380 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.57400 :
+ 16%|█▌        | 11/70 [02:49<15:12, 15.47s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0151931 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.96164 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.2566401 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.52061 :
+ 17%|█▋        | 12/70 [03:04<14:51, 15.36s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0060129 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.0951577 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.64461 :
+ 19%|█▊        | 13/70 [03:20<14:39, 15.43s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0043108 :
+INFO:model.model_wrapper:******train score at epoch 14: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.0855183 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.68898 :
+ 20%|██        | 14/70 [03:35<14:18, 15.34s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0033054 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.0923161 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.64461 :
+ 21%|██▏       | 15/70 [03:51<14:08, 15.42s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0030561 :
+INFO:model.model_wrapper:******train score at epoch 16: 0.99686 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.0859097 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.60881 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 12 / 20 ****
+INFO:runner.model.base_runner:****cv 12 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.2702480 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.28970 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1350651 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.32394 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.32394
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:36, 15.31s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1064572 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.62691 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1015897 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.30571 :
+  3%|▎         | 2/70 [00:30<17:16, 15.25s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0622981 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.76169 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.2044822 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.model_wrapper:******valid score at epoch 3: 0.00000 :
+  4%|▍         | 3/70 [00:46<17:13, 15.43s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0376932 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.90852 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1045494 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.45972 :
+INFO:model.model_wrapper:validation score is improved from 0.32394 to 0.45972
+INFO:model.model_wrapper:Checkpoint saved
+  6%|▌         | 4/70 [01:01<16:51, 15.33s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0184835 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.98095 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.0902453 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.65474 :
+INFO:model.model_wrapper:validation score is improved from 0.45972 to 0.65474
+INFO:model.model_wrapper:Checkpoint saved
+  7%|▋         | 5/70 [01:17<16:45, 15.47s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0141738 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.98415 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0982007 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.56502 :
+  9%|▊         | 6/70 [01:32<16:24, 15.38s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0142967 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.97780 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.0826306 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.73463 :
+INFO:model.model_wrapper:validation score is improved from 0.65474 to 0.73463
+INFO:model.model_wrapper:Checkpoint saved
+ 10%|█         | 7/70 [01:47<16:07, 15.35s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0073708 :
+INFO:model.model_wrapper:******train score at epoch 8: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.2519872 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.65474 :
+ 11%|█▏        | 8/70 [02:02<15:50, 15.33s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0046641 :
+INFO:model.model_wrapper:******train score at epoch 9: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.2588437 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.74215 :
+INFO:model.model_wrapper:validation score is improved from 0.73463 to 0.74215
+INFO:model.model_wrapper:Checkpoint saved
+ 13%|█▎        | 9/70 [02:18<15:45, 15.50s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0041736 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0792488 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.80764 :
+INFO:model.model_wrapper:validation score is improved from 0.74215 to 0.80764
+INFO:model.model_wrapper:Checkpoint saved
+ 14%|█▍        | 10/70 [02:34<15:33, 15.56s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0031988 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.0751061 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.80764 :
+ 16%|█▌        | 11/70 [02:49<15:16, 15.53s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0034300 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1778072 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.80764 :
+ 17%|█▋        | 12/70 [03:05<14:55, 15.44s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0025625 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.2053896 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.73463 :
+ 19%|█▊        | 13/70 [03:20<14:36, 15.37s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0025409 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.0751938 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.74215 :
+ 20%|██        | 14/70 [03:35<14:24, 15.43s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0019834 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.0851605 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.73463 :
+ 21%|██▏       | 15/70 [03:51<14:07, 15.41s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0020003 :
+INFO:model.model_wrapper:******train score at epoch 16: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.0810528 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.73463 :
+ 23%|██▎       | 16/70 [04:06<13:47, 15.33s/it]INFO:model.model_wrapper:training 17  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 17: 0.0014223 :
+INFO:model.model_wrapper:******train score at epoch 17: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 17: 0.2959051 :
+INFO:model.model_wrapper:******valid score at epoch 17: 0.73463 :
+ 24%|██▍       | 17/70 [04:21<13:29, 15.27s/it]INFO:model.model_wrapper:training 18  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 18: 0.0016850 :
+INFO:model.model_wrapper:******train score at epoch 18: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 18: 0.2351374 :
+INFO:model.model_wrapper:******valid score at epoch 18: 0.80764 :
+ 26%|██▌       | 18/70 [04:37<13:23, 15.44s/it]INFO:model.model_wrapper:training 19  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 19: 0.0012621 :
+INFO:model.model_wrapper:******train score at epoch 19: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 19: 0.0886875 :
+INFO:model.model_wrapper:******valid score at epoch 19: 0.73463 :
+ 27%|██▋       | 19/70 [04:52<13:06, 15.43s/it]INFO:model.model_wrapper:training 20  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 20: 0.0011064 :
+INFO:model.model_wrapper:******train score at epoch 20: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 20: 0.3134583 :
+INFO:model.model_wrapper:******valid score at epoch 20: 0.73463 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 13 / 20 ****
+INFO:runner.model.base_runner:****cv 13 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3508184 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.32705 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1331874 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.65474 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.65474
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:36, 15.32s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1157536 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.60307 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.0497978 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.65474 :
+  3%|▎         | 2/70 [00:30<17:26, 15.40s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0688875 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.80570 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0908268 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.73463 :
+INFO:model.model_wrapper:validation score is improved from 0.65474 to 0.73463
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:46<17:11, 15.39s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0370560 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.90852 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0486410 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.88154 :
+INFO:model.model_wrapper:validation score is improved from 0.73463 to 0.88154
+INFO:model.model_wrapper:Checkpoint saved
+  6%|▌         | 4/70 [01:01<16:51, 15.33s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0201154 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.96810 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.0578177 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.65474 :
+  7%|▋         | 5/70 [01:17<16:42, 15.43s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0155233 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.98095 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0873891 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.81417 :
+  9%|▊         | 6/70 [01:32<16:21, 15.34s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0094830 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99051 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.0318287 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.76307 :
+ 10%|█         | 7/70 [01:47<16:05, 15.32s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0064703 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0476657 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.80764 :
+ 11%|█▏        | 8/70 [02:02<15:45, 15.26s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0051350 :
+INFO:model.model_wrapper:******train score at epoch 9: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0258326 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.81417 :
+ 13%|█▎        | 9/70 [02:18<15:39, 15.40s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0043700 :
+INFO:model.model_wrapper:******train score at epoch 10: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0427131 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.74215 :
+ 14%|█▍        | 10/70 [02:33<15:18, 15.31s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0042630 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.99686 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.0251463 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.87550 :
+ 16%|█▌        | 11/70 [02:49<15:08, 15.40s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0041717 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.0874776 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.87550 :
+ 17%|█▋        | 12/70 [03:04<14:49, 15.34s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0033881 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.1554896 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.74215 :
+ 19%|█▊        | 13/70 [03:19<14:31, 15.30s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0033742 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.0275294 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.87550 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 14 / 20 ****
+INFO:runner.model.base_runner:****cv 14 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3064862 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.35288 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1384433 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.34211 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.34211
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:38, 15.34s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1140688 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.63677 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.0728935 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.52061 :
+INFO:model.model_wrapper:validation score is improved from 0.34211 to 0.52061
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:30<17:21, 15.32s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0664354 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.79033 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0548277 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.76307 :
+INFO:model.model_wrapper:validation score is improved from 0.52061 to 0.76307
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:46<17:17, 15.49s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0306870 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.94525 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0465164 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.80764 :
+INFO:model.model_wrapper:validation score is improved from 0.76307 to 0.80764
+INFO:model.model_wrapper:Checkpoint saved
+  6%|▌         | 4/70 [01:01<16:52, 15.34s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0168667 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.97775 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.0541403 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.80764 :
+  7%|▋         | 5/70 [01:17<16:47, 15.49s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0106286 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1357684 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.73463 :
+  9%|▊         | 6/70 [01:32<16:23, 15.37s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0083105 :
+INFO:model.model_wrapper:******train score at epoch 7: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1786464 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.65474 :
+ 10%|█         | 7/70 [01:48<16:14, 15.47s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0055752 :
+INFO:model.model_wrapper:******train score at epoch 8: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0537723 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.68898 :
+ 11%|█▏        | 8/70 [02:03<15:55, 15.41s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0046625 :
+INFO:model.model_wrapper:******train score at epoch 9: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0684684 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.73463 :
+ 13%|█▎        | 9/70 [02:18<15:43, 15.46s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0037365 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.1171832 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.74215 :
+ 14%|█▍        | 10/70 [02:34<15:22, 15.37s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0033598 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1160518 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.65474 :
+ 16%|█▌        | 11/70 [02:49<15:05, 15.34s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0036307 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.0896224 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.74215 :
+ 17%|█▋        | 12/70 [03:05<14:55, 15.44s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0029467 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.0988231 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.66412 :
+ 19%|█▊        | 13/70 [03:20<14:34, 15.35s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0024751 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.0615038 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.73463 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 15 / 20 ****
+INFO:runner.model.base_runner:****cv 15 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3110825 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.35849 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1368908 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.21465 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.21465
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:14<17:03, 14.84s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1044023 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.65132 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1706840 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.48022 :
+INFO:model.model_wrapper:validation score is improved from 0.21465 to 0.48022
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:30<17:08, 15.12s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0585915 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.84914 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.1683204 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.48022 :
+  4%|▍         | 3/70 [00:46<17:03, 15.28s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0388644 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.89483 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1398756 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.21465 :
+  6%|▌         | 4/70 [01:01<16:43, 15.21s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0200097 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.96161 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1003894 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.48022 :
+  7%|▋         | 5/70 [01:17<16:38, 15.36s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0126196 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.99051 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0998240 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.42133 :
+  9%|▊         | 6/70 [01:32<16:17, 15.27s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0093067 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.98733 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1159321 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.36422 :
+ 10%|█         | 7/70 [01:47<16:01, 15.26s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0067587 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0910040 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.48022 :
+ 11%|█▏        | 8/70 [02:02<15:44, 15.23s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0045279 :
+INFO:model.model_wrapper:******train score at epoch 9: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0858204 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.42133 :
+ 13%|█▎        | 9/70 [02:18<15:37, 15.36s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0043608 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.1251258 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.42133 :
+ 14%|█▍        | 10/70 [02:33<15:18, 15.30s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0033455 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.3674965 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.36422 :
+ 16%|█▌        | 11/70 [02:48<14:58, 15.23s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0032576 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1200367 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.42133 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 16 / 20 ****
+INFO:runner.model.base_runner:****cv 16 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3646950 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.28540 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1630193 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.16341 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.16341
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<18:06, 15.75s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1332067 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.57348 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1138550 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.36422 :
+INFO:model.model_wrapper:validation score is improved from 0.16341 to 0.36422
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:30<17:39, 15.58s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0818706 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.79541 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0593889 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.68898 :
+INFO:model.model_wrapper:validation score is improved from 0.36422 to 0.68898
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:46<17:27, 15.63s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0480511 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.89492 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0613943 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.66412 :
+  6%|▌         | 4/70 [01:01<17:02, 15.49s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0289029 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.93533 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1661910 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.74215 :
+INFO:model.model_wrapper:validation score is improved from 0.68898 to 0.74215
+INFO:model.model_wrapper:Checkpoint saved
+  7%|▋         | 5/70 [01:17<16:50, 15.54s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0173625 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.98095 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1479647 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.81417 :
+INFO:model.model_wrapper:validation score is improved from 0.74215 to 0.81417
+INFO:model.model_wrapper:Checkpoint saved
+  9%|▊         | 6/70 [01:33<16:35, 15.56s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0136509 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.98095 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.0641754 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.74215 :
+ 10%|█         | 7/70 [01:48<16:19, 15.55s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0156716 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.98096 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0961299 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.56502 :
+ 11%|█▏        | 8/70 [02:04<16:03, 15.54s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0104349 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99368 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.1626716 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.81417 :
+ 13%|█▎        | 9/70 [02:19<15:51, 15.60s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0071880 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0464308 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.81417 :
+ 14%|█▍        | 10/70 [02:35<15:36, 15.60s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0055390 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.0513416 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.81417 :
+ 16%|█▌        | 11/70 [02:50<15:13, 15.49s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0043317 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1731850 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.74215 :
+ 17%|█▋        | 12/70 [03:06<14:59, 15.51s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0043192 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.0560183 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.81417 :
+ 19%|█▊        | 13/70 [03:21<14:45, 15.54s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0036845 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.0586733 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.81417 :
+ 20%|██        | 14/70 [03:37<14:33, 15.59s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0033387 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.0565913 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.81417 :
+ 21%|██▏       | 15/70 [03:52<14:10, 15.47s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0030447 :
+INFO:model.model_wrapper:******train score at epoch 16: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.0532138 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.81417 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 17 / 20 ****
+INFO:runner.model.base_runner:****cv 17 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2759
+INFO:model.model_wrapper:valid with data size: 145
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.2437617 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.36627 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1295414 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.64461 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.64461
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:40, 15.38s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.0969443 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.62882 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1100557 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.66412 :
+INFO:model.model_wrapper:validation score is improved from 0.64461 to 0.66412
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [00:30<17:29, 15.43s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0632492 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.76678 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0892070 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.68898 :
+INFO:model.model_wrapper:validation score is improved from 0.66412 to 0.68898
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:46<17:20, 15.52s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0314017 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.92540 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.2206696 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.60881 :
+  6%|▌         | 4/70 [01:02<17:08, 15.59s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0146428 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.98734 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.0751605 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.73463 :
+INFO:model.model_wrapper:validation score is improved from 0.68898 to 0.73463
+INFO:model.model_wrapper:Checkpoint saved
+  7%|▋         | 5/70 [01:17<16:46, 15.49s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0101005 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.99051 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.2191404 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.80764 :
+INFO:model.model_wrapper:validation score is improved from 0.73463 to 0.80764
+INFO:model.model_wrapper:Checkpoint saved
+  9%|▊         | 6/70 [01:32<16:24, 15.38s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0093145 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.99051 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.4415080 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.74215 :
+ 10%|█         | 7/70 [01:48<16:16, 15.50s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0060101 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99684 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0761469 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.73463 :
+ 11%|█▏        | 8/70 [02:04<16:03, 15.55s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0036135 :
+INFO:model.model_wrapper:******train score at epoch 9: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.2552623 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.80764 :
+ 13%|█▎        | 9/70 [02:19<15:38, 15.38s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0031574 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0963446 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.64461 :
+ 14%|█▍        | 10/70 [02:34<15:19, 15.33s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0028350 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.2609354 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.68898 :
+ 16%|█▌        | 11/70 [02:49<15:03, 15.32s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0031095 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.0945055 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.68898 :
+ 17%|█▋        | 12/70 [03:05<14:53, 15.41s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0025384 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.2884034 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.73463 :
+ 19%|█▊        | 13/70 [03:21<14:42, 15.49s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0021115 :
+INFO:model.model_wrapper:******train score at epoch 14: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.1120055 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.80764 :
+ 20%|██        | 14/70 [03:36<14:30, 15.54s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0015865 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.0998184 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.73463 :
+ 21%|██▏       | 15/70 [03:52<14:15, 15.56s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0016999 :
+INFO:model.model_wrapper:******train score at epoch 16: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.0960684 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.73463 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 18 / 20 ****
+INFO:runner.model.base_runner:****cv 18 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2760
+INFO:model.model_wrapper:valid with data size: 144
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.4491412 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.30694 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.2867048 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.65005 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.65005
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:39, 15.35s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1477142 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.57183 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.0965125 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.65005 :
+  3%|▎         | 2/70 [00:30<17:19, 15.28s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0901942 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.72688 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0699000 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.79102 :
+INFO:model.model_wrapper:validation score is improved from 0.65005 to 0.79102
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:46<17:12, 15.41s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0579387 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.83927 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.0996806 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.34479 :
+  6%|▌         | 4/70 [01:01<16:51, 15.33s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0357643 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.93573 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.0994178 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.61639 :
+  7%|▋         | 5/70 [01:16<16:32, 15.27s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0263558 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.95859 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1763297 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.45080 :
+  9%|▊         | 6/70 [01:32<16:26, 15.41s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0178070 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.97787 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.0849441 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.65005 :
+ 10%|█         | 7/70 [01:47<16:06, 15.33s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0119795 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99372 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.0669904 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.69693 :
+ 11%|█▏        | 8/70 [02:03<15:58, 15.45s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0093065 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99686 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0396090 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.69693 :
+ 13%|█▎        | 9/70 [02:18<15:39, 15.40s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0079656 :
+INFO:model.model_wrapper:******train score at epoch 10: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.0449454 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.69693 :
+ 14%|█▍        | 10/70 [02:33<15:19, 15.32s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0069157 :
+INFO:model.model_wrapper:******train score at epoch 11: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.2281640 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.60142 :
+ 16%|█▌        | 11/70 [02:49<15:10, 15.44s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0059752 :
+INFO:model.model_wrapper:******train score at epoch 12: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.0483227 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.70801 :
+ 17%|█▋        | 12/70 [03:04<14:51, 15.37s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0055270 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.0457486 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.69693 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!
+****cv 19 / 20 ****
+INFO:runner.model.base_runner:****cv 19 / 20 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/feature/plot_images.py:113: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  self.plot_meta_df["target"] = self.plot_meta_df["target"].astype("float32")
+INFO:model.model_wrapper:train with data size: 2760
+INFO:model.model_wrapper:valid with data size: 144
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.3976719 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.28902 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.2282810 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.43836 :
+INFO:model.model_wrapper:validation score is improved from 0.00000 to 0.43836
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:15<17:39, 15.36s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.1347868 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.55844 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1672729 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.40458 :
+  3%|▎         | 2/70 [00:30<17:17, 15.26s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0733224 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.78456 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.1677492 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.55629 :
+INFO:model.model_wrapper:validation score is improved from 0.43836 to 0.55629
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [00:46<17:11, 15.39s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0453745 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.90589 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.2030695 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.48932 :
+  6%|▌         | 4/70 [01:01<16:49, 15.29s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0278018 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.93900 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.0775399 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.55629 :
+  7%|▋         | 5/70 [01:16<16:32, 15.27s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0177784 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.97787 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.0952458 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.61639 :
+INFO:model.model_wrapper:validation score is improved from 0.55629 to 0.61639
+INFO:model.model_wrapper:Checkpoint saved
+  9%|▊         | 6/70 [01:31<16:14, 15.22s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0184221 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.96517 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1813762 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.61639 :
+ 10%|█         | 7/70 [01:47<16:04, 15.31s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0094603 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.99686 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.1276100 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.51245 :
+ 11%|█▏        | 8/70 [02:02<15:56, 15.42s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0095754 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.99056 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.0923488 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.61639 :
+ 13%|█▎        | 9/70 [02:18<15:43, 15.47s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0087970 :
+INFO:model.model_wrapper:******train score at epoch 10: 0.99056 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.2876359 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.55629 :
+ 14%|█▍        | 10/70 [02:33<15:32, 15.54s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0124047 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.97473 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1015625 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.51245 :
+ 16%|█▌        | 11/70 [02:49<15:10, 15.43s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0117012 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.98424 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1568216 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.61639 :
+ 17%|█▋        | 12/70 [03:04<14:49, 15.34s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0077049 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.99056 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.1171684 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.61639 :
+ 19%|█▊        | 13/70 [03:19<14:40, 15.45s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0087099 :
+INFO:model.model_wrapper:******train score at epoch 14: 0.98424 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.1149657 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.65005 :
+INFO:model.model_wrapper:validation score is improved from 0.61639 to 0.65005
+INFO:model.model_wrapper:Checkpoint saved
+ 20%|██        | 14/70 [03:35<14:21, 15.38s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0046068 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.1826369 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.47059 :
+ 21%|██▏       | 15/70 [03:50<14:01, 15.30s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0043197 :
+INFO:model.model_wrapper:******train score at epoch 16: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.3795707 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.61639 :
+ 23%|██▎       | 16/70 [04:06<13:54, 15.46s/it]INFO:model.model_wrapper:training 17  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 17: 0.0038238 :
+INFO:model.model_wrapper:******train score at epoch 17: 0.99372 :
+INFO:model.model_wrapper:******valid loss at epoch 17: 0.3437865 :
+INFO:model.model_wrapper:******valid score at epoch 17: 0.61639 :
+ 24%|██▍       | 17/70 [04:21<13:40, 15.48s/it]INFO:model.model_wrapper:training 18  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 18: 0.0082569 :
+INFO:model.model_wrapper:******train score at epoch 18: 0.98746 :
+INFO:model.model_wrapper:******valid loss at epoch 18: 0.1384097 :
+INFO:model.model_wrapper:******valid score at epoch 18: 0.47059 :
+ 26%|██▌       | 18/70 [04:37<13:29, 15.57s/it]INFO:model.model_wrapper:training 19  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 19: 0.0099776 :
+INFO:model.model_wrapper:******train score at epoch 19: 0.97788 :
+INFO:model.model_wrapper:******valid loss at epoch 19: 0.1855413 :
+INFO:model.model_wrapper:******valid score at epoch 19: 0.38915 :
+ 27%|██▋       | 19/70 [04:52<13:13, 15.55s/it]INFO:model.model_wrapper:training 20  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 20: 0.0047189 :
+INFO:model.model_wrapper:******train score at epoch 20: 0.98423 :
+INFO:model.model_wrapper:******valid loss at epoch 20: 0.1093974 :
+INFO:model.model_wrapper:******valid score at epoch 20: 0.61639 :
+ 29%|██▊       | 20/70 [05:08<12:57, 15.55s/it]INFO:model.model_wrapper:training 21  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 21: 0.0026199 :
+INFO:model.model_wrapper:******train score at epoch 21: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 21: 0.1268552 :
+INFO:model.model_wrapper:******valid score at epoch 21: 0.55629 :
+ 30%|███       | 21/70 [05:24<12:44, 15.60s/it]INFO:model.model_wrapper:training 22  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 22: 0.0017948 :
+INFO:model.model_wrapper:******train score at epoch 22: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 22: 0.1112496 :
+INFO:model.model_wrapper:******valid score at epoch 22: 0.61639 :
+ 31%|███▏      | 22/70 [05:39<12:21, 15.44s/it]INFO:model.model_wrapper:training 23  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 23: 0.0017773 :
+INFO:model.model_wrapper:******train score at epoch 23: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 23: 0.1225784 :
+INFO:model.model_wrapper:******valid score at epoch 23: 0.61639 :
+ 33%|███▎      | 23/70 [05:54<12:08, 15.50s/it]INFO:model.model_wrapper:training 24  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 24: 0.0014645 :
+INFO:model.model_wrapper:******train score at epoch 24: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 24: 0.1121937 :
+INFO:model.model_wrapper:******valid score at epoch 24: 0.61639 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!

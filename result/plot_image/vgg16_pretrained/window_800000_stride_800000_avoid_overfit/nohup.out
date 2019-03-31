@@ -1,0 +1,164 @@
+INFO:model.vgg16_pretrained:train with data size: 2324
+INFO:model.vgg16_pretrained:valid with data size: 580
+  0%|          | 0/50 [00:00<?, ?it/s]INFO:model.vgg16_pretrained:training 1  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 1: 0.3422647 :
+INFO:model.vgg16_pretrained:******train score at epoch 1: 0.00738 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 1: 0.1684643 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:538: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.vgg16_pretrained:******valid score at epoch 1: 0.00000 :
+  2%|▏         | 1/50 [00:56<46:30, 56.95s/it]INFO:model.vgg16_pretrained:training 2  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 2: 0.1793901 :
+INFO:model.vgg16_pretrained:******train score at epoch 2: 0.00000 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 2: 0.1342017 :
+INFO:model.vgg16_pretrained:******valid score at epoch 2: 0.00000 :
+  4%|▍         | 2/50 [01:58<46:41, 58.37s/it]INFO:model.vgg16_pretrained:training 3  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 3: 0.1560340 :
+INFO:model.vgg16_pretrained:******train score at epoch 3: 0.00000 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 3: 0.1122403 :
+INFO:model.vgg16_pretrained:******valid score at epoch 3: 0.00000 :
+  6%|▌         | 3/50 [03:01<46:44, 59.67s/it]INFO:model.vgg16_pretrained:training 4  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 4: 0.1336882 :
+INFO:model.vgg16_pretrained:******train score at epoch 4: 0.08014 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 4: 0.0986157 :
+INFO:model.vgg16_pretrained:******valid score at epoch 4: 0.00000 :
+  8%|▊         | 4/50 [04:03<46:25, 60.56s/it]INFO:model.vgg16_pretrained:training 5  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 5: 0.1345487 :
+INFO:model.vgg16_pretrained:******train score at epoch 5: 0.11759 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 5: 0.1160091 :
+INFO:model.vgg16_pretrained:******valid score at epoch 5: 0.00000 :
+ 10%|█         | 5/50 [05:06<45:52, 61.16s/it]INFO:model.vgg16_pretrained:training 6  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 6: 0.1086570 :
+INFO:model.vgg16_pretrained:******train score at epoch 6: 0.16318 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 6: 0.0916515 :
+INFO:model.vgg16_pretrained:******valid score at epoch 6: 0.00000 :
+ 12%|█▏        | 6/50 [06:09<45:09, 61.57s/it]INFO:model.vgg16_pretrained:training 7  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 7: 0.0963107 :
+INFO:model.vgg16_pretrained:******train score at epoch 7: 0.25326 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 7: 0.1196753 :
+INFO:model.vgg16_pretrained:******valid score at epoch 7: 0.17198 :
+INFO:model.vgg16_pretrained:validation score is improved from 0.000 to 0.172
+INFO:model.vgg16_pretrained:Checkpoint saved
+ 14%|█▍        | 7/50 [07:12<44:30, 62.10s/it]INFO:model.vgg16_pretrained:training 8  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 8: 0.0954622 :
+INFO:model.vgg16_pretrained:******train score at epoch 8: 0.37362 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 8: 0.1039844 :
+INFO:model.vgg16_pretrained:******valid score at epoch 8: 0.55732 :
+INFO:model.vgg16_pretrained:validation score is improved from 0.172 to 0.557
+INFO:model.vgg16_pretrained:Checkpoint saved
+ 16%|█▌        | 8/50 [08:17<44:08, 63.06s/it]INFO:model.vgg16_pretrained:training 9  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 9: 0.0897276 :
+INFO:model.vgg16_pretrained:******train score at epoch 9: 0.48340 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 9: 0.0981128 :
+INFO:model.vgg16_pretrained:******valid score at epoch 9: 0.53154 :
+ 18%|█▊        | 9/50 [09:20<42:59, 62.91s/it]INFO:model.vgg16_pretrained:training 10  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 10: 0.0750790 :
+INFO:model.vgg16_pretrained:******train score at epoch 10: 0.56069 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 10: 0.0902515 :
+INFO:model.vgg16_pretrained:******valid score at epoch 10: 0.60454 :
+INFO:model.vgg16_pretrained:validation score is improved from 0.557 to 0.605
+INFO:model.vgg16_pretrained:Checkpoint saved
+ 20%|██        | 10/50 [10:24<42:17, 63.43s/it]INFO:model.vgg16_pretrained:training 11  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 11: 0.0675051 :
+INFO:model.vgg16_pretrained:******train score at epoch 11: 0.60441 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 11: 0.1098791 :
+INFO:model.vgg16_pretrained:******valid score at epoch 11: 0.56641 :
+ 22%|██▏       | 11/50 [11:27<41:03, 63.17s/it]INFO:model.vgg16_pretrained:training 12  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 12: 0.0688000 :
+INFO:model.vgg16_pretrained:******train score at epoch 12: 0.71313 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 12: 0.1079920 :
+INFO:model.vgg16_pretrained:******valid score at epoch 12: 0.64038 :
+INFO:model.vgg16_pretrained:validation score is improved from 0.605 to 0.640
+INFO:model.vgg16_pretrained:Checkpoint saved
+ 24%|██▍       | 12/50 [12:31<40:15, 63.57s/it]INFO:model.vgg16_pretrained:training 13  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 13: 0.0717954 :
+INFO:model.vgg16_pretrained:******train score at epoch 13: 0.53108 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 13: 0.1396603 :
+INFO:model.vgg16_pretrained:******valid score at epoch 13: 0.53154 :
+ 26%|██▌       | 13/50 [13:34<39:02, 63.32s/it]INFO:model.vgg16_pretrained:training 14  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 14: 0.0453075 :
+INFO:model.vgg16_pretrained:******train score at epoch 14: 0.74301 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 14: 0.1112692 :
+INFO:model.vgg16_pretrained:******valid score at epoch 14: 0.68541 :
+INFO:model.vgg16_pretrained:validation score is improved from 0.640 to 0.685
+INFO:model.vgg16_pretrained:Checkpoint saved
+ 28%|██▊       | 14/50 [14:40<38:25, 64.05s/it]INFO:model.vgg16_pretrained:training 15  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 15: 0.0335080 :
+INFO:model.vgg16_pretrained:******train score at epoch 15: 0.85999 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 15: 0.1473053 :
+INFO:model.vgg16_pretrained:******valid score at epoch 15: 0.58451 :
+ 30%|███       | 15/50 [15:42<37:00, 63.45s/it]INFO:model.vgg16_pretrained:training 16  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 16: 0.0183832 :
+INFO:model.vgg16_pretrained:******train score at epoch 16: 0.92516 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 16: 0.2583526 :
+INFO:model.vgg16_pretrained:******valid score at epoch 16: 0.58451 :
+ 32%|███▏      | 16/50 [16:44<35:41, 62.99s/it]INFO:model.vgg16_pretrained:training 17  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 17: 0.0237365 :
+INFO:model.vgg16_pretrained:******train score at epoch 17: 0.92960 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 17: 0.1572219 :
+INFO:model.vgg16_pretrained:******valid score at epoch 17: 0.68541 :
+ 34%|███▍      | 17/50 [17:46<34:27, 62.64s/it]INFO:model.vgg16_pretrained:training 18  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 18: 0.0269864 :
+INFO:model.vgg16_pretrained:******train score at epoch 18: 0.91416 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 18: 0.1828550 :
+INFO:model.vgg16_pretrained:******valid score at epoch 18: 0.62404 :
+ 36%|███▌      | 18/50 [18:48<33:23, 62.60s/it]INFO:model.vgg16_pretrained:training 19  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 19: 0.0108217 :
+INFO:model.vgg16_pretrained:******train score at epoch 19: 0.98532 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 19: 0.1792324 :
+INFO:model.vgg16_pretrained:******valid score at epoch 19: 0.70233 :
+INFO:model.vgg16_pretrained:validation score is improved from 0.685 to 0.702
+INFO:model.vgg16_pretrained:Checkpoint saved
+ 38%|███▊      | 19/50 [19:54<32:45, 63.42s/it]INFO:model.vgg16_pretrained:training 20  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 20: 0.0088882 :
+INFO:model.vgg16_pretrained:******train score at epoch 20: 0.97796 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 20: 0.2929429 :
+INFO:model.vgg16_pretrained:******valid score at epoch 20: 0.60996 :
+ 40%|████      | 20/50 [20:56<31:35, 63.20s/it]INFO:model.vgg16_pretrained:training 21  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 21: 0.0081887 :
+INFO:model.vgg16_pretrained:******train score at epoch 21: 0.97044 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 21: 0.2098076 :
+INFO:model.vgg16_pretrained:******valid score at epoch 21: 0.67906 :
+ 42%|████▏     | 21/50 [21:59<30:26, 62.99s/it]INFO:model.vgg16_pretrained:training 22  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 22: 0.0067183 :
+INFO:model.vgg16_pretrained:******train score at epoch 22: 0.98168 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 22: 0.3387686 :
+INFO:model.vgg16_pretrained:******valid score at epoch 22: 0.60479 :
+ 44%|████▍     | 22/50 [23:01<29:17, 62.75s/it]INFO:model.vgg16_pretrained:training 23  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 23: 0.0061097 :
+INFO:model.vgg16_pretrained:******train score at epoch 23: 0.97790 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 23: 0.2738212 :
+INFO:model.vgg16_pretrained:******valid score at epoch 23: 0.69238 :
+ 46%|████▌     | 23/50 [24:04<28:12, 62.69s/it]INFO:model.vgg16_pretrained:training 24  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 24: 0.0088366 :
+INFO:model.vgg16_pretrained:******train score at epoch 24: 0.97077 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 24: 0.2266286 :
+INFO:model.vgg16_pretrained:******valid score at epoch 24: 0.64946 :
+ 48%|████▊     | 24/50 [25:06<27:09, 62.65s/it]INFO:model.vgg16_pretrained:training 25  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 25: 0.0054973 :
+INFO:model.vgg16_pretrained:******train score at epoch 25: 0.98160 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 25: 0.2387521 :
+INFO:model.vgg16_pretrained:******valid score at epoch 25: 0.68541 :
+ 50%|█████     | 25/50 [26:08<26:01, 62.46s/it]INFO:model.vgg16_pretrained:training 26  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 26: 0.0021092 :
+INFO:model.vgg16_pretrained:******train score at epoch 26: 1.00000 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 26: 0.2874971 :
+INFO:model.vgg16_pretrained:******valid score at epoch 26: 0.69044 :
+ 52%|█████▏    | 26/50 [27:10<24:55, 62.32s/it]INFO:model.vgg16_pretrained:training 27  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 27: 0.0038312 :
+INFO:model.vgg16_pretrained:******train score at epoch 27: 0.98908 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 27: 0.3130822 :
+INFO:model.vgg16_pretrained:******valid score at epoch 27: 0.69238 :
+ 54%|█████▍    | 27/50 [28:12<23:50, 62.20s/it]INFO:model.vgg16_pretrained:training 28  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 28: 0.0086785 :
+INFO:model.vgg16_pretrained:******train score at epoch 28: 0.98161 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 28: 0.3904856 :
+INFO:model.vgg16_pretrained:******valid score at epoch 28: 0.65351 :
+ 56%|█████▌    | 28/50 [29:15<22:51, 62.34s/it]INFO:model.vgg16_pretrained:training 29  / 50 epochs
+INFO:model.vgg16_pretrained:******train loss at epoch 29: 0.0064267 :
+INFO:model.vgg16_pretrained:******train score at epoch 29: 0.98532 :
+INFO:model.vgg16_pretrained:******valid loss at epoch 29: 0.2586802 :
+INFO:model.vgg16_pretrained:******valid score at epoch 29: 0.63228 :
+INFO:model.vgg16_pretrained:======early stopped=====
+
+INFO:model.vgg16_pretrained:train done!

@@ -1,0 +1,1234 @@
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 6 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:03<00:39,  3.01s/it][A
+ 21%|██▏       | 3/14 [00:03<00:23,  2.13s/it][A
+ 36%|███▌      | 5/14 [00:03<00:13,  1.51s/it][A
+ 50%|█████     | 7/14 [00:03<00:07,  1.07s/it][A
+ 64%|██████▍   | 9/14 [00:03<00:03,  1.31it/s][A
+ 86%|████████▌ | 12/14 [00:03<00:01,  1.82it/s][A
+100%|██████████| 14/14 [00:03<00:00,  3.74it/s][A 10%|█         | 1/10 [00:06<00:58,  6.47s/it]**** predicting with fold 6 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.30it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.14it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.24it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.62it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.31it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.24it/s][A 20%|██        | 2/10 [00:07<00:38,  4.86s/it]**** predicting with fold 6 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.28it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.13it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.23it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.62it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.30it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.32it/s][A 30%|███       | 3/10 [00:08<00:26,  3.74s/it]**** predicting with fold 6 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.25it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.09it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.19it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.58it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.24it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.44it/s][A 40%|████      | 4/10 [00:09<00:17,  2.94s/it]**** predicting with fold 6 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.31it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.16it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.27it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.66it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.35it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.36it/s][A 50%|█████     | 5/10 [00:10<00:11,  2.39s/it]**** predicting with fold 6 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.21it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.04it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.12it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.48it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.13it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.24it/s][A 60%|██████    | 6/10 [00:12<00:08,  2.01s/it]**** predicting with fold 6 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.08it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.17it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.55it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.21it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.21it/s][A 70%|███████   | 7/10 [00:13<00:05,  1.74s/it]**** predicting with fold 6 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.05it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.14it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.50it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.16it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.34it/s][A 80%|████████  | 8/10 [00:14<00:03,  1.55s/it]**** predicting with fold 6 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.16it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.53it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.20it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.20it/s][A 90%|█████████ | 9/10 [00:15<00:01,  1.42s/it]**** predicting with fold 6 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 6 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:07,  1.80it/s][A
+ 29%|██▊       | 4/14 [00:00<00:04,  2.49it/s][A
+ 50%|█████     | 7/14 [00:00<00:02,  3.41it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  4.58it/s][A
+ 93%|█████████▎| 13/14 [00:01<00:00,  6.05it/s][A
+100%|██████████| 14/14 [00:01<00:00, 12.03it/s][A100%|██████████| 10/10 [00:16<00:00,  1.36s/it]**** soft voting with fold 6 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 6 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 3 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:07,  1.79it/s][A
+ 29%|██▊       | 4/14 [00:00<00:04,  2.48it/s][A
+ 50%|█████     | 7/14 [00:00<00:02,  3.40it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  4.58it/s][A
+ 93%|█████████▎| 13/14 [00:01<00:00,  6.05it/s][A
+100%|██████████| 14/14 [00:01<00:00, 12.07it/s][A 10%|█         | 1/10 [00:01<00:10,  1.21s/it]**** predicting with fold 3 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:07,  1.79it/s][A
+ 29%|██▊       | 4/14 [00:00<00:04,  2.48it/s][A
+ 50%|█████     | 7/14 [00:00<00:02,  3.40it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  4.58it/s][A
+ 93%|█████████▎| 13/14 [00:01<00:00,  6.07it/s][A
+100%|██████████| 14/14 [00:01<00:00, 12.13it/s][A 20%|██        | 2/10 [00:02<00:09,  1.21s/it]**** predicting with fold 3 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.37it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.24it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.38it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.80it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.53it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.49it/s][A 30%|███       | 3/10 [00:03<00:08,  1.18s/it]**** predicting with fold 3 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.25it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.10it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.20it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.58it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.28it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.51it/s][A 40%|████      | 4/10 [00:04<00:06,  1.15s/it]**** predicting with fold 3 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.29it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.14it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.25it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.64it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.32it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.47it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.13s/it]**** predicting with fold 3 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.05it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.13it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.50it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.16it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.36it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.12s/it]**** predicting with fold 3 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.28it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.12it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.22it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.61it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.30it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.38it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.12s/it]**** predicting with fold 3 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.17it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.55it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.22it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.39it/s][A 80%|████████  | 8/10 [00:09<00:02,  1.11s/it]**** predicting with fold 3 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.27it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.11it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.22it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.58it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.28it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.32it/s][A 90%|█████████ | 9/10 [00:10<00:01,  1.11s/it]**** predicting with fold 3 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 3 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.06it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.14it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.51it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.17it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.34it/s][A100%|██████████| 10/10 [00:11<00:00,  1.11s/it]**** soft voting with fold 3 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 3 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 9 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.06it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.15it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.52it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.20it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.30it/s][A 10%|█         | 1/10 [00:01<00:09,  1.11s/it]**** predicting with fold 9 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.08it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.18it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.55it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.22it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.40it/s][A 20%|██        | 2/10 [00:02<00:08,  1.11s/it]**** predicting with fold 9 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.25it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.09it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.19it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.57it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.25it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.39it/s][A 30%|███       | 3/10 [00:03<00:07,  1.10s/it]**** predicting with fold 9 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.27it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.11it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.22it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.62it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.32it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.58it/s][A 40%|████      | 4/10 [00:04<00:06,  1.10s/it]**** predicting with fold 9 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.30it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.15it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.26it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.67it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.35it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.46it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.10s/it]**** predicting with fold 9 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.06it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.15it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.53it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.20it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.34it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.10s/it]**** predicting with fold 9 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.19it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.02it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.09it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.44it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.08it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.17it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.11s/it]**** predicting with fold 9 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.27it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.11it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.22it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.61it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.29it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.19it/s][A 80%|████████  | 8/10 [00:08<00:02,  1.11s/it]**** predicting with fold 9 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.32it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.18it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.28it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.69it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.39it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.32it/s][A 90%|█████████ | 9/10 [00:09<00:01,  1.11s/it]**** predicting with fold 9 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 9 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.25it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.08it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.17it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.54it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.20it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.26it/s][A100%|██████████| 10/10 [00:11<00:00,  1.11s/it]**** soft voting with fold 9 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 9 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 0 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.15it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.52it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.20it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.29it/s][A 10%|█         | 1/10 [00:01<00:09,  1.11s/it]**** predicting with fold 0 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.29it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.14it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.25it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.64it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.32it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.19it/s][A 20%|██        | 2/10 [00:02<00:08,  1.11s/it]**** predicting with fold 0 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.30it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.15it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.26it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.66it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.34it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.43it/s][A 30%|███       | 3/10 [00:03<00:07,  1.11s/it]**** predicting with fold 0 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.31it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.16it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.27it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.67it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.37it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.40it/s][A 40%|████      | 4/10 [00:04<00:06,  1.11s/it]**** predicting with fold 0 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.36it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.23it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.38it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.80it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.55it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.88it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.09s/it]**** predicting with fold 0 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.33it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.19it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.33it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.74it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.48it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.66it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.09s/it]**** predicting with fold 0 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.39it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.27it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.43it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.88it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.62it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.97it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.08s/it]**** predicting with fold 0 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.32it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.18it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.31it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.74it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.44it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.64it/s][A 80%|████████  | 8/10 [00:08<00:02,  1.08s/it]**** predicting with fold 0 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.39it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.27it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.42it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.87it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.61it/s][A
+100%|██████████| 14/14 [00:01<00:00, 14.00it/s][A 90%|█████████ | 9/10 [00:09<00:01,  1.07s/it]**** predicting with fold 0 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 0 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.37it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.25it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.39it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.83it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.58it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.96it/s][A100%|██████████| 10/10 [00:10<00:00,  1.07s/it]**** soft voting with fold 0 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 0 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 1 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.40it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.28it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.44it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.89it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.64it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.93it/s][A 10%|█         | 1/10 [00:01<00:09,  1.06s/it]**** predicting with fold 1 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.40it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.29it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.45it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.89it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.65it/s][A
+100%|██████████| 14/14 [00:00<00:00, 14.05it/s][A 20%|██        | 2/10 [00:02<00:08,  1.06s/it]**** predicting with fold 1 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.08it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.17it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.56it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.26it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.61it/s][A 30%|███       | 3/10 [00:03<00:07,  1.07s/it]**** predicting with fold 1 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:06,  2.15it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  2.96it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.02it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.36it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.00it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.17it/s][A 40%|████      | 4/10 [00:04<00:06,  1.08s/it]**** predicting with fold 1 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:06,  2.16it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  2.97it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.03it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.37it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.03it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.18it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.09s/it]**** predicting with fold 1 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.16it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.53it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.22it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.15it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.10s/it]**** predicting with fold 1 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.21it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.03it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.11it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.47it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.11it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.09it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.11s/it]**** predicting with fold 1 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.05it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.14it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.50it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.16it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.09it/s][A 80%|████████  | 8/10 [00:08<00:02,  1.11s/it]**** predicting with fold 1 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.27it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.10it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.21it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.59it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.26it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.21it/s][A 90%|█████████ | 9/10 [00:09<00:01,  1.11s/it]**** predicting with fold 1 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 1 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.25it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.09it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.18it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.55it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.21it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.33it/s][A100%|██████████| 10/10 [00:11<00:00,  1.11s/it]**** soft voting with fold 1 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 1 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 5 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.05it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.12it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.49it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.15it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.31it/s][A 10%|█         | 1/10 [00:01<00:09,  1.11s/it]**** predicting with fold 5 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.16it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.55it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.20it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.35it/s][A 20%|██        | 2/10 [00:02<00:08,  1.11s/it]**** predicting with fold 5 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.20it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.02it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.10it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.46it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.10it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.35it/s][A 30%|███       | 3/10 [00:03<00:07,  1.11s/it]**** predicting with fold 5 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.20it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.02it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.10it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.45it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.11it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.16it/s][A 40%|████      | 4/10 [00:04<00:06,  1.11s/it]**** predicting with fold 5 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.26it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.10it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.20it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.58it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.26it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.28it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.11s/it]**** predicting with fold 5 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.06it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.15it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.52it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.19it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.41it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.11s/it]**** predicting with fold 5 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.05it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.13it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.50it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.16it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.27it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.11s/it]**** predicting with fold 5 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.19it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.01it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.08it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.43it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.07it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.18it/s][A 80%|████████  | 8/10 [00:08<00:02,  1.11s/it]**** predicting with fold 5 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.25it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.09it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.18it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.55it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.21it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.24it/s][A 90%|█████████ | 9/10 [00:09<00:01,  1.11s/it]**** predicting with fold 5 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 5 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.14it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.51it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.18it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.10it/s][A100%|██████████| 10/10 [00:11<00:00,  1.11s/it]**** soft voting with fold 5 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 5 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 8 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.06it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.15it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.52it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.19it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.33it/s][A 10%|█         | 1/10 [00:01<00:09,  1.10s/it]**** predicting with fold 8 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.19it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.01it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.08it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.43it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.09it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.24it/s][A 20%|██        | 2/10 [00:02<00:08,  1.11s/it]**** predicting with fold 8 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.27it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.11it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.22it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.61it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.28it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.35it/s][A 30%|███       | 3/10 [00:03<00:07,  1.11s/it]**** predicting with fold 8 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.26it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.11it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.21it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.59it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.27it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.42it/s][A 40%|████      | 4/10 [00:04<00:06,  1.11s/it]**** predicting with fold 8 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.17it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  2.98it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.05it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.39it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.03it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.23it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.11s/it]**** predicting with fold 8 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.19it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.01it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.08it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.44it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.08it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.27it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.11s/it]**** predicting with fold 8 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.08it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.17it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.54it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.21it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.22it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.11s/it]**** predicting with fold 8 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.19it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.01it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.08it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.43it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.08it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.29it/s][A 80%|████████  | 8/10 [00:08<00:02,  1.11s/it]**** predicting with fold 8 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.18it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  2.99it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.06it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.41it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.05it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.03it/s][A 90%|█████████ | 9/10 [00:10<00:01,  1.12s/it]**** predicting with fold 8 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 8 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.28it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.14it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.25it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.64it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.31it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.36it/s][A100%|██████████| 10/10 [00:11<00:00,  1.11s/it]**** soft voting with fold 8 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 8 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 4 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.21it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.03it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.10it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.45it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.11it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.06it/s][A 10%|█         | 1/10 [00:01<00:10,  1.13s/it]**** predicting with fold 4 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.05it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.13it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.51it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.17it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.44it/s][A 20%|██        | 2/10 [00:02<00:08,  1.12s/it]**** predicting with fold 4 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.28it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.13it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.23it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.62it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.30it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.43it/s][A 30%|███       | 3/10 [00:03<00:07,  1.11s/it]**** predicting with fold 4 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.06it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.15it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.52it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.18it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.20it/s][A 40%|████      | 4/10 [00:04<00:06,  1.11s/it]**** predicting with fold 4 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.28it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.12it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.23it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.63it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.33it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.47it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.11s/it]**** predicting with fold 4 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.06it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.13it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.50it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.17it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.14it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.11s/it]**** predicting with fold 4 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.20it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.02it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.10it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.46it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.09it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.05it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.12s/it]**** predicting with fold 4 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.16it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.52it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.18it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.21it/s][A 80%|████████  | 8/10 [00:08<00:02,  1.12s/it]**** predicting with fold 4 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.16it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.54it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.20it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.31it/s][A 90%|█████████ | 9/10 [00:10<00:01,  1.11s/it]**** predicting with fold 4 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 4 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.21it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.04it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.12it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.47it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.13it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.25it/s][A100%|██████████| 10/10 [00:11<00:00,  1.11s/it]**** soft voting with fold 4 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 4 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 7 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.24it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.07it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.16it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.53it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.20it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.11it/s][A 10%|█         | 1/10 [00:01<00:10,  1.12s/it]**** predicting with fold 7 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:06,  2.17it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  2.98it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.05it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.39it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.00it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.17it/s][A 20%|██        | 2/10 [00:02<00:08,  1.12s/it]**** predicting with fold 7 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.29it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.15it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.25it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.65it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.33it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.41it/s][A 30%|███       | 3/10 [00:03<00:07,  1.12s/it]**** predicting with fold 7 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.29it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.14it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.26it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.64it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.33it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.37it/s][A 40%|████      | 4/10 [00:04<00:06,  1.11s/it]**** predicting with fold 7 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.20it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.02it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.10it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.44it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.10it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.17it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.11s/it]**** predicting with fold 7 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.30it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.15it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.27it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.67it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.37it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.52it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.11s/it]**** predicting with fold 7 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.21it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.04it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.12it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.49it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.16it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.26it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.11s/it]**** predicting with fold 7 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.04it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.13it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.50it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.15it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.19it/s][A 80%|████████  | 8/10 [00:08<00:02,  1.11s/it]**** predicting with fold 7 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:06,  2.13it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  2.93it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  3.99it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.32it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  6.95it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.12it/s][A 90%|█████████ | 9/10 [00:10<00:01,  1.12s/it]**** predicting with fold 7 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 7 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.19it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.01it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.09it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.44it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.11it/s][A
+100%|██████████| 14/14 [00:01<00:00, 12.97it/s][A100%|██████████| 10/10 [00:11<00:00,  1.12s/it]**** soft voting with fold 7 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 7 bag 8 ****
+  0%|          | 0/10 [00:00<?, ?it/s]**** predicting with fold 2 bag 7 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 7 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.25it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.09it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.17it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.55it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.22it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.36it/s][A 10%|█         | 1/10 [00:01<00:09,  1.11s/it]**** predicting with fold 2 bag 5 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 5 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.30it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.15it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.25it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.66it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.34it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.27it/s][A 20%|██        | 2/10 [00:02<00:08,  1.11s/it]**** predicting with fold 2 bag 9 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 9 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.29it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.13it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.24it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.63it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.31it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.39it/s][A 30%|███       | 3/10 [00:03<00:07,  1.11s/it]**** predicting with fold 2 bag 0 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 0 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.05it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.14it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.50it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.17it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.33it/s][A 40%|████      | 4/10 [00:04<00:06,  1.11s/it]**** predicting with fold 2 bag 1 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 1 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.30it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.15it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.26it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.66it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.35it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.23it/s][A 50%|█████     | 5/10 [00:05<00:05,  1.11s/it]**** predicting with fold 2 bag 6 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 6 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.17it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  2.98it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.04it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.38it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.03it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.17it/s][A 60%|██████    | 6/10 [00:06<00:04,  1.11s/it]**** predicting with fold 2 bag 4 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 4 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.19it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.00it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.08it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.43it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.06it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.18it/s][A 70%|███████   | 7/10 [00:07<00:03,  1.11s/it]**** predicting with fold 2 bag 3 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 3 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.36it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.23it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.36it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.79it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.50it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.44it/s][A 80%|████████  | 8/10 [00:08<00:02,  1.11s/it]**** predicting with fold 2 bag 2 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 2 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.22it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.05it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.12it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.48it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.13it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.10it/s][A 90%|█████████ | 9/10 [00:10<00:01,  1.11s/it]**** predicting with fold 2 bag 8 ****
+INFO:runner.model.base_runner:**** predicting with fold 2 bag 8 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:predicting 6779 samples...
+
+  0%|          | 0/14 [00:00<?, ?it/s][A
+  7%|▋         | 1/14 [00:00<00:05,  2.23it/s][A
+ 29%|██▊       | 4/14 [00:00<00:03,  3.06it/s][A
+ 50%|█████     | 7/14 [00:00<00:01,  4.15it/s][A
+ 71%|███████▏  | 10/14 [00:00<00:00,  5.53it/s][A
+ 93%|█████████▎| 13/14 [00:00<00:00,  7.19it/s][A
+100%|██████████| 14/14 [00:01<00:00, 13.47it/s][A100%|██████████| 10/10 [00:11<00:00,  1.11s/it]**** soft voting with fold 2 bag 8 ****
+
+INFO:runner.model.base_runner:**** soft voting with fold 2 bag 8 ****
+creating submission form
+INFO:runner.model.base_runner:creating submission form
+done!!

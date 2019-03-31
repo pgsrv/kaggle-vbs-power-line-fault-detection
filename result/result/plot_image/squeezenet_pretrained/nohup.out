@@ -1,0 +1,120 @@
+/opt/anaconda3/lib/python3.7/site-packages/torchvision/models/squeezenet.py:94: UserWarning: nn.init.kaiming_uniform is now deprecated in favor of nn.init.kaiming_uniform_.
+  init.kaiming_uniform(m.weight.data)
+/opt/anaconda3/lib/python3.7/site-packages/torchvision/models/squeezenet.py:92: UserWarning: nn.init.normal is now deprecated in favor of nn.init.normal_.
+  init.normal(m.weight.data, mean=0.0, std=0.01)
+INFO:model.model_wrapper:train with data size: 2324
+INFO:model.model_wrapper:valid with data size: 580
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.8081065 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.03077 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.6931472 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:538: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.model_wrapper:******valid score at epoch 1: 0.00000 :
+  1%|▏         | 1/70 [00:10<12:37, 10.98s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.00000 :
+  3%|▎         | 2/70 [00:20<11:51, 10.46s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.00000 :
+  4%|▍         | 3/70 [00:29<11:18, 10.12s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.00000 :
+  6%|▌         | 4/70 [00:38<10:50,  9.86s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.00000 :
+  7%|▋         | 5/70 [00:48<10:29,  9.69s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.00000 :
+  9%|▊         | 6/70 [00:57<10:14,  9.60s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.00000 :
+ 10%|█         | 7/70 [01:06<10:00,  9.53s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.00000 :
+ 11%|█▏        | 8/70 [01:16<09:45,  9.44s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.00000 :
+ 13%|█▎        | 9/70 [01:25<09:34,  9.42s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 10: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.00000 :
+ 14%|█▍        | 10/70 [01:34<09:21,  9.36s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.00000 :
+ 16%|█▌        | 11/70 [01:43<09:08,  9.30s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.00000 :
+ 17%|█▋        | 12/70 [01:53<08:59,  9.31s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 13: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.00000 :
+ 19%|█▊        | 13/70 [02:02<08:49,  9.28s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 14: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.00000 :
+ 20%|██        | 14/70 [02:11<08:37,  9.24s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 15: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.00000 :
+ 21%|██▏       | 15/70 [02:20<08:31,  9.29s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 16: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.00000 :
+ 23%|██▎       | 16/70 [02:30<08:26,  9.38s/it]INFO:model.model_wrapper:training 17  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 17: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 17: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 17: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 17: 0.00000 :
+ 24%|██▍       | 17/70 [02:39<08:16,  9.37s/it]INFO:model.model_wrapper:training 18  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 18: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 18: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 18: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 18: 0.00000 :
+ 26%|██▌       | 18/70 [02:49<08:09,  9.41s/it]INFO:model.model_wrapper:training 19  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 19: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 19: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 19: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 19: 0.00000 :
+ 27%|██▋       | 19/70 [02:58<08:00,  9.41s/it]INFO:model.model_wrapper:training 20  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 20: 0.6931472 :
+INFO:model.model_wrapper:******train score at epoch 20: 0.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 20: 0.6931472 :
+INFO:model.model_wrapper:******valid score at epoch 20: 0.00000 :
+INFO:model.model_wrapper:======early stopped=====
+Traceback (most recent call last):
+  File "runner/model/script/squeezenet_pretrained_window_800000.py", line 15, in <module>
+    runner(plot_root, save_dir=save_dir)
+  File "/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/runner/model/base_runner.py", line 69, in __call__
+    num_workers=n_cpus)
+  File "/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/model_wrapper.py", line 104, in train
+    self.model.load_state_dict(torch.load(self.save_path))
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/serialization.py", line 365, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/gcs/kaggle-vbs-power-line-fault-detection/models/squeezenet_pretrained/window_800000_stride_800000/model'
+

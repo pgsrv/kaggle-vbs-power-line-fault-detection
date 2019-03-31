@@ -1,0 +1,266 @@
+INFO:model.model_wrapper:train with data size: 2324
+INFO:model.model_wrapper:valid with data size: 580
+  0%|          | 0/70 [00:00<?, ?it/s]INFO:model.model_wrapper:training 1  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 1: 0.2815599 :
+INFO:model.model_wrapper:******train score at epoch 1: 0.19767 :
+INFO:model.model_wrapper:******valid loss at epoch 1: 0.1197344 :
+INFO:model.model_wrapper:******valid score at epoch 1: 0.24343 :
+INFO:model.model_wrapper:validation score is improved from 0.000 to 0.243
+INFO:model.model_wrapper:Checkpoint saved
+  1%|▏         | 1/70 [00:34<39:45, 34.57s/it]INFO:model.model_wrapper:training 2  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 2: 0.0994497 :
+INFO:model.model_wrapper:******train score at epoch 2: 0.60762 :
+INFO:model.model_wrapper:******valid loss at epoch 2: 0.1083230 :
+INFO:model.model_wrapper:******valid score at epoch 2: 0.48940 :
+INFO:model.model_wrapper:validation score is improved from 0.243 to 0.489
+INFO:model.model_wrapper:Checkpoint saved
+  3%|▎         | 2/70 [01:06<38:25, 33.91s/it]INFO:model.model_wrapper:training 3  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 3: 0.0559819 :
+INFO:model.model_wrapper:******train score at epoch 3: 0.80621 :
+INFO:model.model_wrapper:******valid loss at epoch 3: 0.0957612 :
+INFO:model.model_wrapper:******valid score at epoch 3: 0.70684 :
+INFO:model.model_wrapper:validation score is improved from 0.489 to 0.707
+INFO:model.model_wrapper:Checkpoint saved
+  4%|▍         | 3/70 [01:39<37:20, 33.44s/it]INFO:model.model_wrapper:training 4  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 4: 0.0304219 :
+INFO:model.model_wrapper:******train score at epoch 4: 0.92084 :
+INFO:model.model_wrapper:******valid loss at epoch 4: 0.1630389 :
+INFO:model.model_wrapper:******valid score at epoch 4: 0.45739 :
+  6%|▌         | 4/70 [02:11<36:21, 33.05s/it]INFO:model.model_wrapper:training 5  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 5: 0.0220398 :
+INFO:model.model_wrapper:******train score at epoch 5: 0.95921 :
+INFO:model.model_wrapper:******valid loss at epoch 5: 0.1039595 :
+INFO:model.model_wrapper:******valid score at epoch 5: 0.62955 :
+  7%|▋         | 5/70 [02:43<35:26, 32.71s/it]INFO:model.model_wrapper:training 6  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 6: 0.0272519 :
+INFO:model.model_wrapper:******train score at epoch 6: 0.91716 :
+INFO:model.model_wrapper:******valid loss at epoch 6: 0.1019446 :
+INFO:model.model_wrapper:******valid score at epoch 6: 0.69933 :
+  9%|▊         | 6/70 [03:15<34:38, 32.48s/it]INFO:model.model_wrapper:training 7  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 7: 0.0167188 :
+INFO:model.model_wrapper:******train score at epoch 7: 0.96293 :
+INFO:model.model_wrapper:******valid loss at epoch 7: 0.1200370 :
+INFO:model.model_wrapper:******valid score at epoch 7: 0.55243 :
+ 10%|█         | 7/70 [03:47<34:00, 32.39s/it]INFO:model.model_wrapper:training 8  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 8: 0.0113376 :
+INFO:model.model_wrapper:******train score at epoch 8: 0.98908 :
+INFO:model.model_wrapper:******valid loss at epoch 8: 0.1109670 :
+INFO:model.model_wrapper:******valid score at epoch 8: 0.69705 :
+ 11%|█▏        | 8/70 [04:19<33:20, 32.27s/it]INFO:model.model_wrapper:training 9  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 9: 0.0254720 :
+INFO:model.model_wrapper:******train score at epoch 9: 0.95916 :
+INFO:model.model_wrapper:******valid loss at epoch 9: 0.1214634 :
+INFO:model.model_wrapper:******valid score at epoch 9: 0.72064 :
+INFO:model.model_wrapper:validation score is improved from 0.707 to 0.721
+INFO:model.model_wrapper:Checkpoint saved
+ 13%|█▎        | 9/70 [04:51<32:49, 32.29s/it]INFO:model.model_wrapper:training 10  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 10: 0.0142406 :
+INFO:model.model_wrapper:******train score at epoch 10: 0.98532 :
+INFO:model.model_wrapper:******valid loss at epoch 10: 0.1054306 :
+INFO:model.model_wrapper:******valid score at epoch 10: 0.67672 :
+ 14%|█▍        | 10/70 [05:24<32:17, 32.30s/it]INFO:model.model_wrapper:training 11  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 11: 0.0073889 :
+INFO:model.model_wrapper:******train score at epoch 11: 0.98899 :
+INFO:model.model_wrapper:******valid loss at epoch 11: 0.1071107 :
+INFO:model.model_wrapper:******valid score at epoch 11: 0.64038 :
+ 16%|█▌        | 11/70 [05:55<31:27, 32.00s/it]INFO:model.model_wrapper:training 12  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 12: 0.0041092 :
+INFO:model.model_wrapper:******train score at epoch 12: 0.99267 :
+INFO:model.model_wrapper:******valid loss at epoch 12: 0.1055671 :
+INFO:model.model_wrapper:******valid score at epoch 12: 0.72956 :
+INFO:model.model_wrapper:validation score is improved from 0.721 to 0.730
+INFO:model.model_wrapper:Checkpoint saved
+ 17%|█▋        | 12/70 [06:27<30:59, 32.06s/it]INFO:model.model_wrapper:training 13  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 13: 0.0026391 :
+INFO:model.model_wrapper:******train score at epoch 13: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 13: 0.1288164 :
+INFO:model.model_wrapper:******valid score at epoch 13: 0.75052 :
+INFO:model.model_wrapper:validation score is improved from 0.730 to 0.751
+INFO:model.model_wrapper:Checkpoint saved
+ 19%|█▊        | 13/70 [06:59<30:31, 32.13s/it]INFO:model.model_wrapper:training 14  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 14: 0.0034794 :
+INFO:model.model_wrapper:******train score at epoch 14: 0.99269 :
+INFO:model.model_wrapper:******valid loss at epoch 14: 0.1137079 :
+INFO:model.model_wrapper:******valid score at epoch 14: 0.69928 :
+ 20%|██        | 14/70 [07:32<29:59, 32.14s/it]INFO:model.model_wrapper:training 15  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 15: 0.0039905 :
+INFO:model.model_wrapper:******train score at epoch 15: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 15: 0.0936568 :
+INFO:model.model_wrapper:******valid score at epoch 15: 0.74834 :
+ 21%|██▏       | 15/70 [08:03<29:15, 31.92s/it]INFO:model.model_wrapper:training 16  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 16: 0.0115505 :
+INFO:model.model_wrapper:******train score at epoch 16: 0.97796 :
+INFO:model.model_wrapper:******valid loss at epoch 16: 0.1289983 :
+INFO:model.model_wrapper:******valid score at epoch 16: 0.60472 :
+ 23%|██▎       | 16/70 [08:35<28:47, 32.00s/it]INFO:model.model_wrapper:training 17  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 17: 0.0115173 :
+INFO:model.model_wrapper:******train score at epoch 17: 0.95553 :
+INFO:model.model_wrapper:******valid loss at epoch 17: 0.1739206 :
+INFO:model.model_wrapper:******valid score at epoch 17: 0.54844 :
+ 24%|██▍       | 17/70 [09:07<28:16, 32.00s/it]INFO:model.model_wrapper:training 18  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 18: 0.0052394 :
+INFO:model.model_wrapper:******train score at epoch 18: 0.98908 :
+INFO:model.model_wrapper:******valid loss at epoch 18: 0.2029999 :
+INFO:model.model_wrapper:******valid score at epoch 18: 0.65351 :
+ 26%|██▌       | 18/70 [09:39<27:45, 32.02s/it]INFO:model.model_wrapper:training 19  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 19: 0.0091149 :
+INFO:model.model_wrapper:******train score at epoch 19: 0.98538 :
+INFO:model.model_wrapper:******valid loss at epoch 19: 0.2327517 :
+INFO:model.model_wrapper:******valid score at epoch 19: 0.62670 :
+ 27%|██▋       | 19/70 [10:11<27:14, 32.05s/it]INFO:model.model_wrapper:training 20  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 20: 0.0041118 :
+INFO:model.model_wrapper:******train score at epoch 20: 0.98899 :
+INFO:model.model_wrapper:******valid loss at epoch 20: 0.1193239 :
+INFO:model.model_wrapper:******valid score at epoch 20: 0.70811 :
+ 29%|██▊       | 20/70 [10:43<26:44, 32.08s/it]INFO:model.model_wrapper:training 21  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 21: 0.0019037 :
+INFO:model.model_wrapper:******train score at epoch 21: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 21: 0.1343506 :
+INFO:model.model_wrapper:******valid score at epoch 21: 0.72123 :
+ 30%|███       | 21/70 [11:16<26:12, 32.09s/it]INFO:model.model_wrapper:training 22  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 22: 0.0011368 :
+INFO:model.model_wrapper:******train score at epoch 22: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 22: 0.1253173 :
+INFO:model.model_wrapper:******valid score at epoch 22: 0.76166 :
+INFO:model.model_wrapper:validation score is improved from 0.751 to 0.762
+INFO:model.model_wrapper:Checkpoint saved
+ 31%|███▏      | 22/70 [11:47<25:29, 31.87s/it]INFO:model.model_wrapper:training 23  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 23: 0.0009196 :
+INFO:model.model_wrapper:******train score at epoch 23: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 23: 0.1104255 :
+INFO:model.model_wrapper:******valid score at epoch 23: 0.75052 :
+ 33%|███▎      | 23/70 [12:19<25:01, 31.95s/it]INFO:model.model_wrapper:training 24  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 24: 0.0008204 :
+INFO:model.model_wrapper:******train score at epoch 24: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 24: 0.1116607 :
+INFO:model.model_wrapper:******valid score at epoch 24: 0.72482 :
+ 34%|███▍      | 24/70 [12:51<24:30, 31.97s/it]INFO:model.model_wrapper:training 25  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 25: 0.0007830 :
+INFO:model.model_wrapper:******train score at epoch 25: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 25: 0.1153899 :
+INFO:model.model_wrapper:******valid score at epoch 25: 0.72482 :
+ 36%|███▌      | 25/70 [13:23<24:01, 32.03s/it]INFO:model.model_wrapper:training 26  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 26: 0.0006080 :
+INFO:model.model_wrapper:******train score at epoch 26: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 26: 0.1374656 :
+INFO:model.model_wrapper:******valid score at epoch 26: 0.72482 :
+ 37%|███▋      | 26/70 [13:55<23:30, 32.05s/it]INFO:model.model_wrapper:training 27  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 27: 0.0005782 :
+INFO:model.model_wrapper:******train score at epoch 27: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 27: 0.1230642 :
+INFO:model.model_wrapper:******valid score at epoch 27: 0.75052 :
+ 39%|███▊      | 27/70 [14:28<22:59, 32.08s/it]INFO:model.model_wrapper:training 28  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 28: 0.0006562 :
+INFO:model.model_wrapper:******train score at epoch 28: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 28: 0.1558539 :
+INFO:model.model_wrapper:******valid score at epoch 28: 0.75052 :
+ 40%|████      | 28/70 [14:59<22:19, 31.90s/it]INFO:model.model_wrapper:training 29  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 29: 0.0004723 :
+INFO:model.model_wrapper:******train score at epoch 29: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 29: 0.1364160 :
+INFO:model.model_wrapper:******valid score at epoch 29: 0.76674 :
+INFO:model.model_wrapper:validation score is improved from 0.762 to 0.767
+INFO:model.model_wrapper:Checkpoint saved
+ 41%|████▏     | 29/70 [15:31<21:52, 32.02s/it]INFO:model.model_wrapper:training 30  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 30: 0.0005606 :
+INFO:model.model_wrapper:******train score at epoch 30: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 30: 0.1453399 :
+INFO:model.model_wrapper:******valid score at epoch 30: 0.74603 :
+ 43%|████▎     | 30/70 [16:03<21:22, 32.05s/it]INFO:model.model_wrapper:training 31  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 31: 0.0004376 :
+INFO:model.model_wrapper:******train score at epoch 31: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 31: 0.1261038 :
+INFO:model.model_wrapper:******valid score at epoch 31: 0.74603 :
+ 44%|████▍     | 31/70 [16:36<20:50, 32.07s/it]INFO:model.model_wrapper:training 32  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 32: 0.0004619 :
+INFO:model.model_wrapper:******train score at epoch 32: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 32: 0.1392892 :
+INFO:model.model_wrapper:******valid score at epoch 32: 0.74603 :
+ 46%|████▌     | 32/70 [17:07<20:16, 32.01s/it]INFO:model.model_wrapper:training 33  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 33: 0.0004549 :
+INFO:model.model_wrapper:******train score at epoch 33: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 33: 0.1242788 :
+INFO:model.model_wrapper:******valid score at epoch 33: 0.76674 :
+ 47%|████▋     | 33/70 [17:40<19:46, 32.06s/it]INFO:model.model_wrapper:training 34  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 34: 0.0003517 :
+INFO:model.model_wrapper:******train score at epoch 34: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 34: 0.1423003 :
+INFO:model.model_wrapper:******valid score at epoch 34: 0.74603 :
+ 49%|████▊     | 34/70 [18:11<19:04, 31.81s/it]INFO:model.model_wrapper:training 35  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 35: 0.0004908 :
+INFO:model.model_wrapper:******train score at epoch 35: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 35: 0.1424756 :
+INFO:model.model_wrapper:******valid score at epoch 35: 0.72482 :
+ 50%|█████     | 35/70 [18:42<18:28, 31.67s/it]INFO:model.model_wrapper:training 36  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 36: 0.0003784 :
+INFO:model.model_wrapper:******train score at epoch 36: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 36: 0.1681197 :
+INFO:model.model_wrapper:******valid score at epoch 36: 0.74603 :
+ 51%|█████▏    | 36/70 [19:14<17:59, 31.74s/it]INFO:model.model_wrapper:training 37  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 37: 0.0003021 :
+INFO:model.model_wrapper:******train score at epoch 37: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 37: 0.1665742 :
+INFO:model.model_wrapper:******valid score at epoch 37: 0.72123 :
+ 53%|█████▎    | 37/70 [19:46<17:30, 31.83s/it]INFO:model.model_wrapper:training 38  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 38: 0.0002650 :
+INFO:model.model_wrapper:******train score at epoch 38: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 38: 0.1384783 :
+INFO:model.model_wrapper:******valid score at epoch 38: 0.74263 :
+ 54%|█████▍    | 38/70 [20:18<17:01, 31.94s/it]INFO:model.model_wrapper:training 39  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 39: 0.0031702 :
+INFO:model.model_wrapper:******train score at epoch 39: 0.99634 :
+INFO:model.model_wrapper:******valid loss at epoch 39: 0.1830113 :
+INFO:model.model_wrapper:******valid score at epoch 39: 0.67672 :
+ 56%|█████▌    | 39/70 [20:50<16:31, 31.98s/it]INFO:model.model_wrapper:training 40  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 40: 0.0447710 :
+INFO:model.model_wrapper:******train score at epoch 40: 0.91434 :
+INFO:model.model_wrapper:******valid loss at epoch 40: 0.2030784 :
+INFO:model.model_wrapper:******valid score at epoch 40: 0.60996 :
+ 57%|█████▋    | 40/70 [21:23<16:01, 32.04s/it]INFO:model.model_wrapper:training 41  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 41: 0.0610915 :
+INFO:model.model_wrapper:******train score at epoch 41: 0.83920 :
+INFO:model.model_wrapper:******valid loss at epoch 41: 0.1147255 :
+INFO:model.model_wrapper:******valid score at epoch 41: 0.67672 :
+ 59%|█████▊    | 41/70 [21:54<15:28, 32.01s/it]INFO:model.model_wrapper:training 42  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 42: 0.0356077 :
+INFO:model.model_wrapper:******train score at epoch 42: 0.89591 :
+INFO:model.model_wrapper:******valid loss at epoch 42: 0.2878787 :
+INFO:model.model_wrapper:******valid score at epoch 42: 0.34846 :
+ 60%|██████    | 42/70 [22:27<14:56, 32.02s/it]INFO:model.model_wrapper:training 43  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 43: 0.0229271 :
+INFO:model.model_wrapper:******train score at epoch 43: 0.93272 :
+INFO:model.model_wrapper:******valid loss at epoch 43: 0.1312159 :
+INFO:model.model_wrapper:******valid score at epoch 43: 0.63644 :
+ 61%|██████▏   | 43/70 [22:58<14:23, 31.97s/it]INFO:model.model_wrapper:training 44  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 44: 0.0076389 :
+INFO:model.model_wrapper:******train score at epoch 44: 0.98161 :
+INFO:model.model_wrapper:******valid loss at epoch 44: 0.1011990 :
+INFO:model.model_wrapper:******valid score at epoch 44: 0.66925 :
+ 63%|██████▎   | 44/70 [23:30<13:51, 31.99s/it]INFO:model.model_wrapper:training 45  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 45: 0.0032571 :
+INFO:model.model_wrapper:******train score at epoch 45: 0.99634 :
+INFO:model.model_wrapper:******valid loss at epoch 45: 0.1579335 :
+INFO:model.model_wrapper:******valid score at epoch 45: 0.69044 :
+ 64%|██████▍   | 45/70 [24:03<13:20, 32.03s/it]INFO:model.model_wrapper:training 46  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 46: 0.0022026 :
+INFO:model.model_wrapper:******train score at epoch 46: 0.99636 :
+INFO:model.model_wrapper:******valid loss at epoch 46: 0.1340671 :
+INFO:model.model_wrapper:******valid score at epoch 46: 0.66357 :
+ 66%|██████▌   | 46/70 [24:34<12:47, 32.00s/it]INFO:model.model_wrapper:training 47  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 47: 0.0013142 :
+INFO:model.model_wrapper:******train score at epoch 47: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 47: 0.1157504 :
+INFO:model.model_wrapper:******valid score at epoch 47: 0.69238 :
+ 67%|██████▋   | 47/70 [25:07<12:18, 32.10s/it]INFO:model.model_wrapper:training 48  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 48: 0.0010368 :
+INFO:model.model_wrapper:******train score at epoch 48: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 48: 0.1249904 :
+INFO:model.model_wrapper:******valid score at epoch 48: 0.67019 :
+ 69%|██████▊   | 48/70 [25:39<11:45, 32.06s/it]INFO:model.model_wrapper:training 49  / 70 epochs
+INFO:model.model_wrapper:******train loss at epoch 49: 0.0008047 :
+INFO:model.model_wrapper:******train score at epoch 49: 1.00000 :
+INFO:model.model_wrapper:******valid loss at epoch 49: 0.1445766 :
+INFO:model.model_wrapper:******valid score at epoch 49: 0.67019 :
+INFO:model.model_wrapper:======early stopped=====
+
+INFO:model.model_wrapper:train done!

@@ -1,0 +1,1817 @@
+****cv 0 / 10 ****
+INFO:runner.model.base_runner:****cv 0 / 10 ****
+/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/custom_nn.py:147: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(m.weight.data)
+INFO:model.nn_model_wrapper:train with data size: 2613
+INFO:model.nn_model_wrapper:valid with data size: 291
+  0%|          | 0/300 [00:00<?, ?it/s]INFO:model.nn_model_wrapper:training 1  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 1: 0.6891289 :
+INFO:model.nn_model_wrapper:******train score at epoch 1: -0.00556 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 1: 0.6608874 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 1: 0.00000 :
+  0%|          | 1/300 [00:04<21:40,  4.35s/it]INFO:model.nn_model_wrapper:training 2  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 2: 0.6487175 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 2: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 2: 0.6235760 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 2: 0.00000 :
+  1%|          | 2/300 [00:05<17:33,  3.53s/it]INFO:model.nn_model_wrapper:training 3  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 3: 0.6075360 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 3: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 3: 0.5710765 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 3: 0.00000 :
+  1%|          | 3/300 [00:07<14:38,  2.96s/it]INFO:model.nn_model_wrapper:training 4  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 4: 0.5461414 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 4: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 4: 0.4897386 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 4: 0.00000 :
+  1%|▏         | 4/300 [00:09<12:35,  2.55s/it]INFO:model.nn_model_wrapper:training 5  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 5: 0.4522534 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 5: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 5: 0.3765717 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 5: 0.00000 :
+  2%|▏         | 5/300 [00:10<11:07,  2.26s/it]INFO:model.nn_model_wrapper:training 6  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 6: 0.3406859 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 6: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 6: 0.2739559 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 6: 0.00000 :
+  2%|▏         | 6/300 [00:12<10:10,  2.08s/it]INFO:model.nn_model_wrapper:training 7  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 7: 0.2541393 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 7: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 7: 0.2352389 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 7: 0.00000 :
+  2%|▏         | 7/300 [00:14<09:30,  1.95s/it]INFO:model.nn_model_wrapper:training 8  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 8: 0.2256170 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 8: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 8: 0.2424756 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 8: 0.00000 :
+  3%|▎         | 8/300 [00:15<08:59,  1.85s/it]INFO:model.nn_model_wrapper:training 9  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 9: 0.2383370 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 9: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 9: 0.2539301 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 9: 0.00000 :
+  3%|▎         | 9/300 [00:17<08:40,  1.79s/it]INFO:model.nn_model_wrapper:training 10  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 10: 0.2482411 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 10: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 10: 0.2542423 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 10: 0.00000 :
+  3%|▎         | 10/300 [00:18<08:22,  1.73s/it]INFO:model.nn_model_wrapper:training 11  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 11: 0.2449854 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 11: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 11: 0.2464800 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 11: 0.00000 :
+  4%|▎         | 11/300 [00:20<08:09,  1.69s/it]INFO:model.nn_model_wrapper:training 12  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 12: 0.2438426 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 12: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 12: 0.2381146 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 12: 0.00000 :
+  4%|▍         | 12/300 [00:22<08:01,  1.67s/it]INFO:model.nn_model_wrapper:training 13  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 13: 0.2350654 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 13: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 13: 0.2333272 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 13: 0.00000 :
+  4%|▍         | 13/300 [00:23<07:54,  1.65s/it]INFO:model.nn_model_wrapper:training 14  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 14: 0.2388088 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 14: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 14: 0.2328416 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 14: 0.00000 :
+  5%|▍         | 14/300 [00:25<07:51,  1.65s/it]INFO:model.nn_model_wrapper:training 15  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 15: 0.2267809 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 15: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 15: 0.2344190 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 15: 0.00000 :
+  5%|▌         | 15/300 [00:27<07:50,  1.65s/it]INFO:model.nn_model_wrapper:training 16  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 16: 0.2271302 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 16: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 16: 0.2350199 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 16: 0.00000 :
+  5%|▌         | 16/300 [00:28<07:45,  1.64s/it]INFO:model.nn_model_wrapper:training 17  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 17: 0.2342573 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 17: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 17: 0.2340720 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 17: 0.00000 :
+  6%|▌         | 17/300 [00:30<07:44,  1.64s/it]INFO:model.nn_model_wrapper:training 18  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 18: 0.2298094 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 18: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 18: 0.2329357 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 18: 0.00000 :
+  6%|▌         | 18/300 [00:31<07:41,  1.64s/it]INFO:model.nn_model_wrapper:training 19  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 19: 0.2335579 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 19: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 19: 0.2324597 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 19: 0.00000 :
+  6%|▋         | 19/300 [00:33<07:39,  1.63s/it]INFO:model.nn_model_wrapper:training 20  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 20: 0.2303796 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 20: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 20: 0.2325614 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 20: 0.00000 :
+  7%|▋         | 20/300 [00:35<07:36,  1.63s/it]INFO:model.nn_model_wrapper:training 21  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 21: 0.2341594 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 21: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 21: 0.2327897 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 21: 0.00000 :
+  7%|▋         | 21/300 [00:36<07:32,  1.62s/it]INFO:model.nn_model_wrapper:training 22  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 22: 0.2305381 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 22: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 22: 0.2328095 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 22: 0.00000 :
+  7%|▋         | 22/300 [00:38<07:27,  1.61s/it]INFO:model.nn_model_wrapper:training 23  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 23: 0.2201798 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 23: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 23: 0.2326665 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 23: 0.00000 :
+  8%|▊         | 23/300 [00:39<07:25,  1.61s/it]INFO:model.nn_model_wrapper:training 24  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 24: 0.2259558 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 24: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 24: 0.2325795 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 24: 0.00000 :
+  8%|▊         | 24/300 [00:41<07:27,  1.62s/it]INFO:model.nn_model_wrapper:training 25  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 25: 0.2310656 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 25: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 25: 0.2324948 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 25: 0.00000 :
+  8%|▊         | 25/300 [00:43<07:18,  1.60s/it]INFO:model.nn_model_wrapper:training 26  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 26: 0.2317355 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 26: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 26: 0.2324022 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 26: 0.00000 :
+  9%|▊         | 26/300 [00:44<07:16,  1.59s/it]INFO:model.nn_model_wrapper:training 27  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 27: 0.2274429 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 27: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 27: 0.2323210 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 27: 0.00000 :
+  9%|▉         | 27/300 [00:46<07:16,  1.60s/it]INFO:model.nn_model_wrapper:training 28  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 28: 0.2308943 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 28: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 28: 0.2323009 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 28: 0.00000 :
+  9%|▉         | 28/300 [00:47<07:15,  1.60s/it]INFO:model.nn_model_wrapper:training 29  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 29: 0.2273353 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 29: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 29: 0.2322892 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 29: 0.00000 :
+ 10%|▉         | 29/300 [00:49<07:15,  1.61s/it]INFO:model.nn_model_wrapper:training 30  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 30: 0.2258934 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 30: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 30: 0.2322750 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 30: 0.00000 :
+ 10%|█         | 30/300 [00:51<07:16,  1.62s/it]INFO:model.nn_model_wrapper:training 31  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 31: 0.2323483 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 31: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 31: 0.2322724 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 31: 0.00000 :
+ 10%|█         | 31/300 [00:52<07:16,  1.62s/it]INFO:model.nn_model_wrapper:training 32  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 32: 0.2301431 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 32: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 32: 0.2322735 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 32: 0.00000 :
+ 11%|█         | 32/300 [00:54<07:13,  1.62s/it]INFO:model.nn_model_wrapper:training 33  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 33: 0.2236329 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 33: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 33: 0.2322658 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 33: 0.00000 :
+ 11%|█         | 33/300 [00:56<07:11,  1.62s/it]INFO:model.nn_model_wrapper:training 34  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 34: 0.2257694 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 34: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 34: 0.2322801 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 34: 0.00000 :
+ 11%|█▏        | 34/300 [00:57<07:13,  1.63s/it]INFO:model.nn_model_wrapper:training 35  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 35: 0.2397246 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 35: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 35: 0.2323070 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 35: 0.00000 :
+ 12%|█▏        | 35/300 [00:59<07:11,  1.63s/it]INFO:model.nn_model_wrapper:training 36  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 36: 0.2330348 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 36: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 36: 0.2322519 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 36: 0.00000 :
+ 12%|█▏        | 36/300 [01:00<07:07,  1.62s/it]INFO:model.nn_model_wrapper:training 37  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 37: 0.2293874 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 37: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 37: 0.2322039 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 37: 0.00000 :
+ 12%|█▏        | 37/300 [01:02<07:06,  1.62s/it]INFO:model.nn_model_wrapper:training 38  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 38: 0.2351292 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 38: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 38: 0.2321867 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 38: 0.00000 :
+ 13%|█▎        | 38/300 [01:04<07:02,  1.61s/it]INFO:model.nn_model_wrapper:training 39  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 39: 0.2358125 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 39: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 39: 0.2321788 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 39: 0.00000 :
+ 13%|█▎        | 39/300 [01:05<07:02,  1.62s/it]INFO:model.nn_model_wrapper:training 40  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 40: 0.2336542 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 40: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 40: 0.2321781 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 40: 0.00000 :
+ 13%|█▎        | 40/300 [01:07<07:02,  1.63s/it]INFO:model.nn_model_wrapper:training 41  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 41: 0.2322454 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 41: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 41: 0.2321743 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 41: 0.00000 :
+ 14%|█▎        | 41/300 [01:09<07:00,  1.62s/it]INFO:model.nn_model_wrapper:training 42  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 42: 0.2300946 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 42: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 42: 0.2321590 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 42: 0.00000 :
+ 14%|█▍        | 42/300 [01:10<06:57,  1.62s/it]INFO:model.nn_model_wrapper:training 43  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 43: 0.2365415 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 43: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 43: 0.2321390 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 43: 0.00000 :
+ 14%|█▍        | 43/300 [01:12<06:54,  1.61s/it]INFO:model.nn_model_wrapper:training 44  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 44: 0.2336485 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 44: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 44: 0.2321293 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 44: 0.00000 :
+ 15%|█▍        | 44/300 [01:13<06:53,  1.61s/it]INFO:model.nn_model_wrapper:training 45  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 45: 0.2300428 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 45: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 45: 0.2321194 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 45: 0.00000 :
+ 15%|█▌        | 45/300 [01:15<06:52,  1.62s/it]INFO:model.nn_model_wrapper:training 46  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 46: 0.2321948 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 46: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 46: 0.2321123 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 46: 0.00000 :
+ 15%|█▌        | 46/300 [01:17<06:52,  1.63s/it]INFO:model.nn_model_wrapper:training 47  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 47: 0.2314546 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 47: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 47: 0.2321056 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 47: 0.00000 :
+ 16%|█▌        | 47/300 [01:18<06:52,  1.63s/it]INFO:model.nn_model_wrapper:training 48  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 48: 0.2300071 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 48: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 48: 0.2320976 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 48: 0.00000 :
+ 16%|█▌        | 48/300 [01:20<06:51,  1.63s/it]INFO:model.nn_model_wrapper:training 49  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 49: 0.2285555 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 49: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 49: 0.2320918 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 49: 0.00000 :
+ 16%|█▋        | 49/300 [01:22<06:52,  1.64s/it]INFO:model.nn_model_wrapper:training 50  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 50: 0.2270956 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 50: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 50: 0.2320909 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 50: 0.00000 :
+ 17%|█▋        | 50/300 [01:23<06:49,  1.64s/it]INFO:model.nn_model_wrapper:training 51  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 51: 0.2299924 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 51: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 51: 0.2320949 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 51: 0.00000 :
+ 17%|█▋        | 51/300 [01:25<06:49,  1.65s/it]INFO:model.nn_model_wrapper:training 52  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 52: 0.2278290 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 52: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 52: 0.2321036 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 52: 0.00000 :
+ 17%|█▋        | 52/300 [01:27<06:44,  1.63s/it]INFO:model.nn_model_wrapper:training 53  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 53: 0.2285351 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 53: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 53: 0.2321000 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 53: 0.00000 :
+ 18%|█▊        | 53/300 [01:28<06:40,  1.62s/it]INFO:model.nn_model_wrapper:training 54  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 54: 0.2277956 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 54: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 54: 0.2320938 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 54: 0.00000 :
+ 18%|█▊        | 54/300 [01:30<06:38,  1.62s/it]INFO:model.nn_model_wrapper:training 55  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 55: 0.2263557 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 55: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 55: 0.2320758 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 55: 0.00000 :
+ 18%|█▊        | 55/300 [01:31<06:37,  1.62s/it]INFO:model.nn_model_wrapper:training 56  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 56: 0.2292127 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 56: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 56: 0.2320697 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 56: 0.00000 :
+ 19%|█▊        | 56/300 [01:33<06:35,  1.62s/it]INFO:model.nn_model_wrapper:training 57  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 57: 0.2285077 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 57: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 57: 0.2320527 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 57: 0.00000 :
+ 19%|█▉        | 57/300 [01:35<06:34,  1.63s/it]INFO:model.nn_model_wrapper:training 58  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 58: 0.2321394 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 58: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 58: 0.2320351 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 58: 0.00000 :
+ 19%|█▉        | 58/300 [01:36<06:34,  1.63s/it]INFO:model.nn_model_wrapper:training 59  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 59: 0.2292154 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 59: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 59: 0.2320207 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 59: 0.00000 :
+ 20%|█▉        | 59/300 [01:38<06:35,  1.64s/it]INFO:model.nn_model_wrapper:training 60  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 60: 0.2320931 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 60: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 60: 0.2320129 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 60: 0.00000 :
+ 20%|██        | 60/300 [01:40<06:32,  1.63s/it]INFO:model.nn_model_wrapper:training 61  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 61: 0.2364571 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 61: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 61: 0.2320052 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 61: 0.00000 :
+ 20%|██        | 61/300 [01:41<06:29,  1.63s/it]INFO:model.nn_model_wrapper:training 62  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 62: 0.2299319 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 62: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 62: 0.2319902 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 62: 0.00000 :
+ 21%|██        | 62/300 [01:43<06:27,  1.63s/it]INFO:model.nn_model_wrapper:training 63  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 63: 0.2306267 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 63: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 63: 0.2319828 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 63: 0.00000 :
+ 21%|██        | 63/300 [01:44<06:23,  1.62s/it]INFO:model.nn_model_wrapper:training 64  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 64: 0.2349619 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 64: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 64: 0.2319761 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 64: 0.00000 :
+ 21%|██▏       | 64/300 [01:46<06:22,  1.62s/it]INFO:model.nn_model_wrapper:training 65  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 65: 0.2249351 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 65: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 65: 0.2319695 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 65: 0.00000 :
+ 22%|██▏       | 65/300 [01:48<06:22,  1.63s/it]INFO:model.nn_model_wrapper:training 66  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 66: 0.2270375 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 66: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 66: 0.2319644 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 66: 0.00000 :
+ 22%|██▏       | 66/300 [01:49<06:21,  1.63s/it]INFO:model.nn_model_wrapper:training 67  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 67: 0.2313303 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 67: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 67: 0.2319700 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 67: 0.00000 :
+ 22%|██▏       | 67/300 [01:51<06:18,  1.63s/it]INFO:model.nn_model_wrapper:training 68  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 68: 0.2276942 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 68: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 68: 0.2319739 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 68: 0.00000 :
+ 23%|██▎       | 68/300 [01:53<06:16,  1.62s/it]INFO:model.nn_model_wrapper:training 69  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 69: 0.2277138 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 69: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 69: 0.2319758 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 69: 0.00000 :
+ 23%|██▎       | 69/300 [01:54<06:16,  1.63s/it]INFO:model.nn_model_wrapper:training 70  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 70: 0.2342754 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 70: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 70: 0.2319880 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 70: 0.00000 :
+ 23%|██▎       | 70/300 [01:56<06:15,  1.63s/it]INFO:model.nn_model_wrapper:training 71  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 71: 0.2313395 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 71: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 71: 0.2319708 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 71: 0.00000 :
+ 24%|██▎       | 71/300 [01:57<06:11,  1.62s/it]INFO:model.nn_model_wrapper:training 72  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 72: 0.2327818 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 72: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 72: 0.2319492 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 72: 0.00000 :
+ 24%|██▍       | 72/300 [01:59<06:10,  1.62s/it]INFO:model.nn_model_wrapper:training 73  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 73: 0.2341758 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 73: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 73: 0.2319242 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 73: 0.00000 :
+ 24%|██▍       | 73/300 [02:01<06:10,  1.63s/it]INFO:model.nn_model_wrapper:training 74  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 74: 0.2370245 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 74: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 74: 0.2319136 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 74: 0.00000 :
+ 25%|██▍       | 74/300 [02:02<06:07,  1.63s/it]INFO:model.nn_model_wrapper:training 75  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 75: 0.2348511 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 75: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 75: 0.2319170 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 75: 0.00000 :
+ 25%|██▌       | 75/300 [02:04<06:04,  1.62s/it]INFO:model.nn_model_wrapper:training 76  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 76: 0.2277926 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 76: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 76: 0.2319341 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 76: 0.00000 :
+ 25%|██▌       | 76/300 [02:05<06:02,  1.62s/it]INFO:model.nn_model_wrapper:training 77  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 77: 0.2277945 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 77: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 77: 0.2319181 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 77: 0.00000 :
+ 26%|██▌       | 77/300 [02:07<06:02,  1.63s/it]INFO:model.nn_model_wrapper:training 78  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 78: 0.2320225 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 78: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 78: 0.2318930 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 78: 0.00000 :
+ 26%|██▌       | 78/300 [02:09<06:01,  1.63s/it]INFO:model.nn_model_wrapper:training 79  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 79: 0.2357098 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 79: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 79: 0.2318878 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 79: 0.00000 :
+ 26%|██▋       | 79/300 [02:10<05:59,  1.63s/it]INFO:model.nn_model_wrapper:training 80  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 80: 0.2255118 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 80: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 80: 0.2318825 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 80: 0.00000 :
+ 27%|██▋       | 80/300 [02:12<05:55,  1.62s/it]INFO:model.nn_model_wrapper:training 81  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 81: 0.2305377 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 81: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 81: 0.2318881 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 81: 0.00000 :
+ 27%|██▋       | 81/300 [02:14<05:55,  1.63s/it]INFO:model.nn_model_wrapper:training 82  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 82: 0.2312513 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 82: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 82: 0.2318934 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 82: 0.00000 :
+ 27%|██▋       | 82/300 [02:15<05:56,  1.63s/it]INFO:model.nn_model_wrapper:training 83  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 83: 0.2283789 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 83: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 83: 0.2318846 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 83: 0.00000 :
+ 28%|██▊       | 83/300 [02:17<05:53,  1.63s/it]INFO:model.nn_model_wrapper:training 84  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 84: 0.2261896 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 84: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 84: 0.2318806 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 84: 0.00000 :
+ 28%|██▊       | 84/300 [02:19<05:51,  1.63s/it]INFO:model.nn_model_wrapper:training 85  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 85: 0.2290418 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 85: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 85: 0.2318806 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 85: 0.00000 :
+ 28%|██▊       | 85/300 [02:20<05:47,  1.62s/it]INFO:model.nn_model_wrapper:training 86  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 86: 0.2254638 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 86: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 86: 0.2318754 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 86: 0.00000 :
+ 29%|██▊       | 86/300 [02:22<05:42,  1.60s/it]INFO:model.nn_model_wrapper:training 87  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 87: 0.2312366 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 87: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 87: 0.2318767 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 87: 0.00000 :
+ 29%|██▉       | 87/300 [02:23<05:40,  1.60s/it]INFO:model.nn_model_wrapper:training 88  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 88: 0.2269065 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 88: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 88: 0.2318623 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 88: 0.00000 :
+ 29%|██▉       | 88/300 [02:25<05:38,  1.60s/it]INFO:model.nn_model_wrapper:training 89  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 89: 0.2312448 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 89: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 89: 0.2318541 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 89: 0.00000 :
+ 30%|██▉       | 89/300 [02:26<05:37,  1.60s/it]INFO:model.nn_model_wrapper:training 90  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 90: 0.2283303 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 90: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 90: 0.2318423 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 90: 0.00000 :
+ 30%|███       | 90/300 [02:28<05:35,  1.60s/it]INFO:model.nn_model_wrapper:training 91  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 91: 0.2211584 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 91: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 91: 0.2318299 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 91: 0.00000 :
+ 30%|███       | 91/300 [02:30<05:36,  1.61s/it]INFO:model.nn_model_wrapper:training 92  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 92: 0.2290708 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 92: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 92: 0.2318473 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 92: 0.00000 :
+ 31%|███       | 92/300 [02:31<05:36,  1.62s/it]INFO:model.nn_model_wrapper:training 93  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 93: 0.2319323 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 93: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 93: 0.2318463 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 93: 0.00000 :
+ 31%|███       | 93/300 [02:33<05:33,  1.61s/it]INFO:model.nn_model_wrapper:training 94  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 94: 0.2283043 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 94: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 94: 0.2318406 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 94: 0.00000 :
+ 31%|███▏      | 94/300 [02:35<05:31,  1.61s/it]INFO:model.nn_model_wrapper:training 95  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 95: 0.2282804 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 95: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 95: 0.2318322 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 95: 0.00000 :
+ 32%|███▏      | 95/300 [02:36<05:30,  1.61s/it]INFO:model.nn_model_wrapper:training 96  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 96: 0.2290194 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 96: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 96: 0.2318215 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 96: 0.00000 :
+ 32%|███▏      | 96/300 [02:38<05:29,  1.62s/it]INFO:model.nn_model_wrapper:training 97  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 97: 0.2261410 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 97: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 97: 0.2318038 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 97: 0.00000 :
+ 32%|███▏      | 97/300 [02:39<05:28,  1.62s/it]INFO:model.nn_model_wrapper:training 98  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 98: 0.2333830 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 98: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 98: 0.2318028 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 98: 0.00000 :
+ 33%|███▎      | 98/300 [02:41<05:27,  1.62s/it]INFO:model.nn_model_wrapper:training 99  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 99: 0.2275560 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 99: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 99: 0.2317888 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 99: 0.00000 :
+ 33%|███▎      | 99/300 [02:43<05:25,  1.62s/it]INFO:model.nn_model_wrapper:training 100  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 100: 0.2304523 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 100: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 100: 0.2317812 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 100: 0.00000 :
+ 33%|███▎      | 100/300 [02:44<05:24,  1.62s/it]INFO:model.nn_model_wrapper:training 101  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 101: 0.2297220 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 101: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 101: 0.2317764 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 101: 0.00000 :
+ 34%|███▎      | 101/300 [02:46<05:21,  1.62s/it]INFO:model.nn_model_wrapper:training 102  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 102: 0.2276126 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 102: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 102: 0.2317660 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 102: 0.00000 :
+ 34%|███▍      | 102/300 [02:48<05:20,  1.62s/it]INFO:model.nn_model_wrapper:training 103  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 103: 0.2297221 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 103: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 103: 0.2317682 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 103: 0.00000 :
+ 34%|███▍      | 103/300 [02:49<05:19,  1.62s/it]INFO:model.nn_model_wrapper:training 104  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 104: 0.2218397 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 104: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 104: 0.2317625 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 104: 0.00000 :
+ 35%|███▍      | 104/300 [02:51<05:18,  1.63s/it]INFO:model.nn_model_wrapper:training 105  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 105: 0.2304165 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 105: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 105: 0.2317795 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 105: 0.00000 :
+ 35%|███▌      | 105/300 [02:52<05:16,  1.62s/it]INFO:model.nn_model_wrapper:training 106  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 106: 0.2297327 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 106: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 106: 0.2317941 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 106: 0.00000 :
+ 35%|███▌      | 106/300 [02:54<05:15,  1.63s/it]INFO:model.nn_model_wrapper:training 107  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 107: 0.2282722 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 107: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 107: 0.2317877 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 107: 0.00000 :
+ 36%|███▌      | 107/300 [02:56<05:14,  1.63s/it]INFO:model.nn_model_wrapper:training 108  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 108: 0.2340829 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 108: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 108: 0.2317853 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 108: 0.00000 :
+ 36%|███▌      | 108/300 [02:57<05:14,  1.64s/it]INFO:model.nn_model_wrapper:training 109  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 109: 0.2253681 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 109: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 109: 0.2317540 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 109: 0.00000 :
+ 36%|███▋      | 109/300 [02:59<05:10,  1.62s/it]INFO:model.nn_model_wrapper:training 110  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 110: 0.2275469 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 110: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 110: 0.2317378 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 110: 0.00000 :
+ 37%|███▋      | 110/300 [03:01<05:08,  1.63s/it]INFO:model.nn_model_wrapper:training 111  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 111: 0.2253739 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 111: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 111: 0.2317283 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 111: 0.00000 :
+ 37%|███▋      | 111/300 [03:02<05:06,  1.62s/it]INFO:model.nn_model_wrapper:training 112  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 112: 0.2318796 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 112: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 112: 0.2317248 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 112: 0.00000 :
+ 37%|███▋      | 112/300 [03:04<05:03,  1.62s/it]INFO:model.nn_model_wrapper:training 113  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 113: 0.2275257 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 113: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 113: 0.2317219 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 113: 0.00000 :
+ 38%|███▊      | 113/300 [03:05<05:03,  1.62s/it]INFO:model.nn_model_wrapper:training 114  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 114: 0.2304044 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 114: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 114: 0.2317314 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 114: 0.00000 :
+ 38%|███▊      | 114/300 [03:07<05:03,  1.63s/it]INFO:model.nn_model_wrapper:training 115  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 115: 0.2289409 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 115: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 115: 0.2317266 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 115: 0.00000 :
+ 38%|███▊      | 115/300 [03:09<05:01,  1.63s/it]INFO:model.nn_model_wrapper:training 116  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 116: 0.2318548 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 116: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 116: 0.2317208 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 116: 0.00000 :
+ 39%|███▊      | 116/300 [03:10<04:59,  1.63s/it]INFO:model.nn_model_wrapper:training 117  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 117: 0.2311236 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 117: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 117: 0.2317066 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 117: 0.00000 :
+ 39%|███▉      | 117/300 [03:12<04:58,  1.63s/it]INFO:model.nn_model_wrapper:training 118  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 118: 0.2296668 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 118: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 118: 0.2316954 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 118: 0.00000 :
+ 39%|███▉      | 118/300 [03:14<04:57,  1.63s/it]INFO:model.nn_model_wrapper:training 119  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 119: 0.2303942 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 119: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 119: 0.2316890 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 119: 0.00000 :
+ 40%|███▉      | 119/300 [03:15<04:53,  1.62s/it]INFO:model.nn_model_wrapper:training 120  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 120: 0.2303605 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 120: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 120: 0.2316844 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 120: 0.00000 :
+ 40%|████      | 120/300 [03:17<04:52,  1.62s/it]INFO:model.nn_model_wrapper:training 121  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 121: 0.2260751 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 121: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 121: 0.2316784 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 121: 0.00000 :
+ 40%|████      | 121/300 [03:18<04:51,  1.63s/it]INFO:model.nn_model_wrapper:training 122  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 122: 0.2253292 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 122: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 122: 0.2316783 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 122: 0.00000 :
+ 41%|████      | 122/300 [03:20<04:50,  1.63s/it]INFO:model.nn_model_wrapper:training 123  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 123: 0.2325285 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 123: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 123: 0.2316906 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 123: 0.00000 :
+ 41%|████      | 123/300 [03:22<04:48,  1.63s/it]INFO:model.nn_model_wrapper:training 124  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 124: 0.2296475 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 124: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 124: 0.2316865 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 124: 0.00000 :
+ 41%|████▏     | 124/300 [03:23<04:47,  1.63s/it]INFO:model.nn_model_wrapper:training 125  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 125: 0.2289244 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 125: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 125: 0.2316817 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 125: 0.00000 :
+ 42%|████▏     | 125/300 [03:25<04:45,  1.63s/it]INFO:model.nn_model_wrapper:training 126  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 126: 0.2339983 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 126: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 126: 0.2316801 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 126: 0.00000 :
+ 42%|████▏     | 126/300 [03:27<04:43,  1.63s/it]INFO:model.nn_model_wrapper:training 127  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 127: 0.2246256 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 127: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 127: 0.2316591 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 127: 0.00000 :
+ 42%|████▏     | 127/300 [03:28<04:43,  1.64s/it]INFO:model.nn_model_wrapper:training 128  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 128: 0.2274629 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 128: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 128: 0.2316531 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 128: 0.00000 :
+ 43%|████▎     | 128/300 [03:30<04:40,  1.63s/it]INFO:model.nn_model_wrapper:training 129  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 129: 0.2252730 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 129: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 129: 0.2316520 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 129: 0.00000 :
+ 43%|████▎     | 129/300 [03:31<04:38,  1.63s/it]INFO:model.nn_model_wrapper:training 130  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 130: 0.2288805 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 130: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 130: 0.2316585 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 130: 0.00000 :
+ 43%|████▎     | 130/300 [03:33<04:36,  1.62s/it]INFO:model.nn_model_wrapper:training 131  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 131: 0.2347111 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 131: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 131: 0.2316612 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 131: 0.00000 :
+ 44%|████▎     | 131/300 [03:35<04:34,  1.62s/it]INFO:model.nn_model_wrapper:training 132  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 132: 0.2303800 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 132: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 132: 0.2316550 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 132: 0.00000 :
+ 44%|████▍     | 132/300 [03:36<04:32,  1.62s/it]INFO:model.nn_model_wrapper:training 133  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 133: 0.2274752 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 133: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 133: 0.2316332 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 133: 0.00000 :
+ 44%|████▍     | 133/300 [03:38<04:34,  1.64s/it]INFO:model.nn_model_wrapper:training 134  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 134: 0.2339597 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 134: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 134: 0.2316272 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 134: 0.00000 :
+ 45%|████▍     | 134/300 [03:40<04:31,  1.64s/it]INFO:model.nn_model_wrapper:training 135  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 135: 0.2325018 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 135: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 135: 0.2316187 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 135: 0.00000 :
+ 45%|████▌     | 135/300 [03:41<04:31,  1.64s/it]INFO:model.nn_model_wrapper:training 136  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 136: 0.2296053 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 136: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 136: 0.2316114 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 136: 0.00000 :
+ 45%|████▌     | 136/300 [03:43<04:30,  1.65s/it]INFO:model.nn_model_wrapper:training 137  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 137: 0.2353008 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 137: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 137: 0.2316077 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 137: 0.00000 :
+ 46%|████▌     | 137/300 [03:45<04:28,  1.65s/it]INFO:model.nn_model_wrapper:training 138  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 138: 0.2310400 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 138: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 138: 0.2316051 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 138: 0.00000 :
+ 46%|████▌     | 138/300 [03:46<04:27,  1.65s/it]INFO:model.nn_model_wrapper:training 139  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 139: 0.2232048 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 139: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 139: 0.2316007 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 139: 0.00000 :
+ 46%|████▋     | 139/300 [03:48<04:23,  1.64s/it]INFO:model.nn_model_wrapper:training 140  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 140: 0.2274540 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 140: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 140: 0.2315959 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 140: 0.00000 :
+ 47%|████▋     | 140/300 [03:50<04:23,  1.65s/it]INFO:model.nn_model_wrapper:training 141  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 141: 0.2295731 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 141: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 141: 0.2316070 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 141: 0.00000 :
+ 47%|████▋     | 141/300 [03:51<04:23,  1.66s/it]INFO:model.nn_model_wrapper:training 142  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 142: 0.2273824 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 142: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 142: 0.2316218 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 142: 0.00000 :
+ 47%|████▋     | 142/300 [03:53<04:20,  1.65s/it]INFO:model.nn_model_wrapper:training 143  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 143: 0.2266460 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 143: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 143: 0.2316395 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 143: 0.00000 :
+ 48%|████▊     | 143/300 [03:55<04:18,  1.65s/it]INFO:model.nn_model_wrapper:training 144  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 144: 0.2332040 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 144: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 144: 0.2316491 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 144: 0.00000 :
+ 48%|████▊     | 144/300 [03:56<04:17,  1.65s/it]INFO:model.nn_model_wrapper:training 145  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 145: 0.2339974 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 145: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 145: 0.2316338 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 145: 0.00000 :
+ 48%|████▊     | 145/300 [03:58<04:14,  1.64s/it]INFO:model.nn_model_wrapper:training 146  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 146: 0.2281290 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 146: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 146: 0.2315875 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 146: 0.00000 :
+ 49%|████▊     | 146/300 [03:59<04:13,  1.65s/it]INFO:model.nn_model_wrapper:training 147  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 147: 0.2288364 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 147: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 147: 0.2315696 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 147: 0.00000 :
+ 49%|████▉     | 147/300 [04:01<04:09,  1.63s/it]INFO:model.nn_model_wrapper:training 148  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 148: 0.2246353 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 148: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 148: 0.2315615 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 148: 0.00000 :
+ 49%|████▉     | 148/300 [04:03<04:08,  1.64s/it]INFO:model.nn_model_wrapper:training 149  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 149: 0.2338714 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 149: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 149: 0.2315607 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 149: 0.00000 :
+ 50%|████▉     | 149/300 [04:04<04:07,  1.64s/it]INFO:model.nn_model_wrapper:training 150  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 150: 0.2309787 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 150: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 150: 0.2315585 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 150: 0.00000 :
+ 50%|█████     | 150/300 [04:06<04:05,  1.63s/it]INFO:model.nn_model_wrapper:training 151  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 151: 0.2309895 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 151: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 151: 0.2315556 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 151: 0.00000 :
+ 50%|█████     | 151/300 [04:08<04:06,  1.65s/it]INFO:model.nn_model_wrapper:training 152  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 152: 0.2274196 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 152: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 152: 0.2315478 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 152: 0.00000 :
+ 51%|█████     | 152/300 [04:09<04:03,  1.65s/it]INFO:model.nn_model_wrapper:training 153  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 153: 0.2302388 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 153: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 153: 0.2315495 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 153: 0.00000 :
+ 51%|█████     | 153/300 [04:11<04:02,  1.65s/it]INFO:model.nn_model_wrapper:training 154  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 154: 0.2346195 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 154: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 154: 0.2315521 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 154: 0.00000 :
+ 51%|█████▏    | 154/300 [04:13<04:00,  1.65s/it]INFO:model.nn_model_wrapper:training 155  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 155: 0.2273630 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 155: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 155: 0.2315417 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 155: 0.00000 :
+ 52%|█████▏    | 155/300 [04:14<03:57,  1.64s/it]INFO:model.nn_model_wrapper:training 156  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 156: 0.2345911 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 156: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 156: 0.2315360 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 156: 0.00000 :
+ 52%|█████▏    | 156/300 [04:16<03:54,  1.63s/it]INFO:model.nn_model_wrapper:training 157  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 157: 0.2345618 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 157: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 157: 0.2315262 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 157: 0.00000 :
+ 52%|█████▏    | 157/300 [04:17<03:51,  1.62s/it]INFO:model.nn_model_wrapper:training 158  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 158: 0.2288202 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 158: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 158: 0.2315208 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 158: 0.00000 :
+ 53%|█████▎    | 158/300 [04:19<03:50,  1.62s/it]INFO:model.nn_model_wrapper:training 159  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 159: 0.2274297 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 159: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 159: 0.2315183 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 159: 0.00000 :
+ 53%|█████▎    | 159/300 [04:21<03:49,  1.63s/it]INFO:model.nn_model_wrapper:training 160  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 160: 0.2281109 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 160: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 160: 0.2315126 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 160: 0.00000 :
+ 53%|█████▎    | 160/300 [04:22<03:49,  1.64s/it]INFO:model.nn_model_wrapper:training 161  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 161: 0.2317226 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 161: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 161: 0.2315158 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 161: 0.00000 :
+ 54%|█████▎    | 161/300 [04:24<03:48,  1.65s/it]INFO:model.nn_model_wrapper:training 162  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 162: 0.2331433 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 162: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 162: 0.2315254 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 162: 0.00000 :
+ 54%|█████▍    | 162/300 [04:26<03:45,  1.63s/it]INFO:model.nn_model_wrapper:training 163  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 163: 0.2338551 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 163: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 163: 0.2315190 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 163: 0.00000 :
+ 54%|█████▍    | 163/300 [04:27<03:45,  1.64s/it]INFO:model.nn_model_wrapper:training 164  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 164: 0.2252204 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 164: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 164: 0.2314997 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 164: 0.00000 :
+ 55%|█████▍    | 164/300 [04:29<03:43,  1.64s/it]INFO:model.nn_model_wrapper:training 165  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 165: 0.2301953 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 165: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 165: 0.2314958 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 165: 0.00000 :
+ 55%|█████▌    | 165/300 [04:31<03:41,  1.64s/it]INFO:model.nn_model_wrapper:training 166  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 166: 0.2323905 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 166: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 166: 0.2314932 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 166: 0.00000 :
+ 55%|█████▌    | 166/300 [04:32<03:38,  1.63s/it]INFO:model.nn_model_wrapper:training 167  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 167: 0.2266217 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 167: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 167: 0.2314873 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 167: 0.00000 :
+ 56%|█████▌    | 167/300 [04:34<03:37,  1.63s/it]INFO:model.nn_model_wrapper:training 168  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 168: 0.2258977 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 168: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 168: 0.2314861 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 168: 0.00000 :
+ 56%|█████▌    | 168/300 [04:35<03:35,  1.63s/it]INFO:model.nn_model_wrapper:training 169  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 169: 0.2244516 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 169: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 169: 0.2314938 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 169: 0.00000 :
+ 56%|█████▋    | 169/300 [04:37<03:34,  1.64s/it]INFO:model.nn_model_wrapper:training 170  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 170: 0.2236652 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 170: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 170: 0.2315133 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 170: 0.00000 :
+ 57%|█████▋    | 170/300 [04:39<03:31,  1.63s/it]INFO:model.nn_model_wrapper:training 171  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 171: 0.2287433 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 171: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 171: 0.2315364 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 171: 0.00000 :
+ 57%|█████▋    | 171/300 [04:40<03:28,  1.62s/it]INFO:model.nn_model_wrapper:training 172  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 172: 0.2251430 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 172: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 172: 0.2315513 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 172: 0.00000 :
+ 57%|█████▋    | 172/300 [04:42<03:26,  1.61s/it]INFO:model.nn_model_wrapper:training 173  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 173: 0.2346339 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 173: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 173: 0.2315574 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 173: 0.00000 :
+ 58%|█████▊    | 173/300 [04:43<03:24,  1.61s/it]INFO:model.nn_model_wrapper:training 174  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 174: 0.2272929 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 174: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 174: 0.2315183 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 174: 0.00000 :
+ 58%|█████▊    | 174/300 [04:45<03:24,  1.62s/it]INFO:model.nn_model_wrapper:training 175  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 175: 0.2338536 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 175: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 175: 0.2314856 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 175: 0.00000 :
+ 58%|█████▊    | 175/300 [04:47<03:24,  1.63s/it]INFO:model.nn_model_wrapper:training 176  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 176: 0.2308950 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 176: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 176: 0.2314584 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 176: 0.00000 :
+ 59%|█████▊    | 176/300 [04:48<03:22,  1.63s/it]INFO:model.nn_model_wrapper:training 177  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 177: 0.2287567 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 177: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 177: 0.2314457 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 177: 0.00000 :
+ 59%|█████▉    | 177/300 [04:50<03:20,  1.63s/it]INFO:model.nn_model_wrapper:training 178  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 178: 0.2330387 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 178: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 178: 0.2314419 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 178: 0.00000 :
+ 59%|█████▉    | 178/300 [04:52<03:19,  1.63s/it]INFO:model.nn_model_wrapper:training 179  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 179: 0.2330708 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 179: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 179: 0.2314408 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 179: 0.00000 :
+ 60%|█████▉    | 179/300 [04:53<03:17,  1.63s/it]INFO:model.nn_model_wrapper:training 180  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 180: 0.2330193 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 180: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 180: 0.2314369 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 180: 0.00000 :
+ 60%|██████    | 180/300 [04:55<03:15,  1.63s/it]INFO:model.nn_model_wrapper:training 181  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 181: 0.2259291 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 181: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 181: 0.2314354 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 181: 0.00000 :
+ 60%|██████    | 181/300 [04:57<03:13,  1.63s/it]INFO:model.nn_model_wrapper:training 182  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 182: 0.2237719 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 182: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 182: 0.2314258 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 182: 0.00000 :
+ 61%|██████    | 182/300 [04:58<03:11,  1.63s/it]INFO:model.nn_model_wrapper:training 183  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 183: 0.2301559 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 183: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 183: 0.2314322 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 183: 0.00000 :
+ 61%|██████    | 183/300 [05:00<03:10,  1.63s/it]INFO:model.nn_model_wrapper:training 184  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 184: 0.2243586 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 184: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 184: 0.2314476 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 184: 0.00000 :
+ 61%|██████▏   | 184/300 [05:01<03:09,  1.63s/it]INFO:model.nn_model_wrapper:training 185  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 185: 0.2323632 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 185: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 185: 0.2314816 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 185: 0.00000 :
+ 62%|██████▏   | 185/300 [05:03<03:07,  1.63s/it]INFO:model.nn_model_wrapper:training 186  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 186: 0.2222136 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 186: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 186: 0.2314782 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 186: 0.00000 :
+ 62%|██████▏   | 186/300 [05:05<03:05,  1.63s/it]INFO:model.nn_model_wrapper:training 187  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 187: 0.2279652 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 187: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 187: 0.2314875 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 187: 0.00000 :
+ 62%|██████▏   | 187/300 [05:06<03:03,  1.62s/it]INFO:model.nn_model_wrapper:training 188  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 188: 0.2331244 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 188: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 188: 0.2314808 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 188: 0.00000 :
+ 63%|██████▎   | 188/300 [05:08<03:02,  1.63s/it]INFO:model.nn_model_wrapper:training 189  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 189: 0.2338388 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 189: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 189: 0.2314424 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 189: 0.00000 :
+ 63%|██████▎   | 189/300 [05:10<03:00,  1.63s/it]INFO:model.nn_model_wrapper:training 190  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 190: 0.2301940 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 190: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 190: 0.2314015 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 190: 0.00000 :
+ 63%|██████▎   | 190/300 [05:11<02:59,  1.63s/it]INFO:model.nn_model_wrapper:training 191  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 191: 0.2330236 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 191: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 191: 0.2313910 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 191: 0.00000 :
+ 64%|██████▎   | 191/300 [05:13<02:58,  1.63s/it]INFO:model.nn_model_wrapper:training 192  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 192: 0.2315413 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 192: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 192: 0.2313914 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 192: 0.00000 :
+ 64%|██████▍   | 192/300 [05:15<02:58,  1.65s/it]INFO:model.nn_model_wrapper:training 193  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 193: 0.2294747 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 193: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 193: 0.2313893 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 193: 0.00000 :
+ 64%|██████▍   | 193/300 [05:16<02:56,  1.65s/it]INFO:model.nn_model_wrapper:training 194  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 194: 0.2244917 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 194: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 194: 0.2313849 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 194: 0.00000 :
+ 65%|██████▍   | 194/300 [05:18<02:53,  1.64s/it]INFO:model.nn_model_wrapper:training 195  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 195: 0.2344403 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 195: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 195: 0.2313762 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 195: 0.00000 :
+ 65%|██████▌   | 195/300 [05:19<02:51,  1.63s/it]INFO:model.nn_model_wrapper:training 196  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 196: 0.2329771 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 196: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 196: 0.2313763 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 196: 0.00000 :
+ 65%|██████▌   | 196/300 [05:21<02:49,  1.63s/it]INFO:model.nn_model_wrapper:training 197  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 197: 0.2279574 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 197: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 197: 0.2313742 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 197: 0.00000 :
+ 66%|██████▌   | 197/300 [05:23<02:47,  1.63s/it]INFO:model.nn_model_wrapper:training 198  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 198: 0.2293714 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 198: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 198: 0.2313746 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 198: 0.00000 :
+ 66%|██████▌   | 198/300 [05:24<02:46,  1.63s/it]INFO:model.nn_model_wrapper:training 199  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 199: 0.2330248 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 199: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 199: 0.2313730 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 199: 0.00000 :
+ 66%|██████▋   | 199/300 [05:26<02:44,  1.63s/it]INFO:model.nn_model_wrapper:training 200  / 300 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 200: 0.2257731 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 200: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 200: 0.2313648 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 200: 0.00000 :
+INFO:model.nn_model_wrapper:======early stopped=====
+Traceback (most recent call last):
+  File "runner/model/train/custom_nn/bilstm_attention_window_5000_summary_kfold_adabound.py", line 34, in <module>
+    runner(train_dataset, X, save_dir=save_dir)
+  File "/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/runner/model/base_runner.py", line 122, in __call__
+    self._train_cv(i, train_index, test_index)
+  File "/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/runner/model/base_runner.py", line 149, in _train_cv
+    num_workers=self.num_workers)
+  File "/home/yohyohyonyon/kaggle/vbs-power-line-fault-detection/model/nn_model_wrapper.py", line 116, in train
+    self.model.load_state_dict(torch.load(self.save_path))
+  File "/opt/anaconda3/lib/python3.7/site-packages/torch/serialization.py", line 365, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/share/vbs-power-line-fault-detection/models/bilstm_attention/window_5000_summary_adabound/cv0/model'

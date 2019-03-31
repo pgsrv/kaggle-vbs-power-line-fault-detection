@@ -1,0 +1,519 @@
+(2904, 3, 199999)
+****cv 0 / 5 ****
+INFO:runner.model.base_runner:****cv 0 / 5 ****
+INFO:model.nn_model_wrapper:train with data size: 2322
+INFO:model.nn_model_wrapper:valid with data size: 582
+  0%|          | 0/200 [00:00<?, ?it/s]INFO:model.nn_model_wrapper:training 1  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 1: 0.2396194 :
+INFO:model.nn_model_wrapper:******train score at epoch 1: -0.00530 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 1: 0.2187517 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 1: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric is improved from -inf to -0.21875
+INFO:model.nn_model_wrapper:Checkpoint saved
+  0%|          | 1/200 [04:38<15:24:36, 278.78s/it]INFO:model.nn_model_wrapper:training 2  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 2: 0.2137241 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 2: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 2: 0.2412213 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 2: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  1%|          | 2/200 [09:22<15:24:55, 280.28s/it]INFO:model.nn_model_wrapper:training 3  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 3: 0.2233481 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 3: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 3: 0.2232442 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 3: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  2%|▏         | 3/200 [14:06<15:24:03, 281.44s/it]INFO:model.nn_model_wrapper:training 4  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 4: 0.2253082 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 4: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 4: 0.2117027 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 4: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric is improved from -0.21875 to -0.21170
+INFO:model.nn_model_wrapper:Checkpoint saved
+  2%|▏         | 4/200 [18:50<15:21:21, 282.05s/it]INFO:model.nn_model_wrapper:training 5  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 5: 0.2195584 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 5: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 5: 0.2153627 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 5: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  2%|▎         | 5/200 [23:33<15:18:17, 282.55s/it]INFO:model.nn_model_wrapper:training 6  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 6: 0.2153151 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 6: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 6: 0.2350406 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 6: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  3%|▎         | 6/200 [28:17<15:14:39, 282.88s/it]INFO:model.nn_model_wrapper:training 7  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 7: 0.2143077 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 7: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 7: 0.2616146 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 7: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  4%|▎         | 7/200 [33:01<15:10:31, 283.07s/it]INFO:model.nn_model_wrapper:training 8  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 8: 0.2174870 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 8: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 8: 0.2133753 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 8: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  4%|▍         | 8/200 [37:44<15:06:15, 283.20s/it]INFO:model.nn_model_wrapper:training 9  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 9: 0.2134888 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 9: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 9: 0.2163105 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 9: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  4%|▍         | 9/200 [42:28<15:01:44, 283.27s/it]INFO:model.nn_model_wrapper:training 10  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 10: 0.2055291 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 10: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 10: 0.1992124 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 10: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric is improved from -0.21170 to -0.19921
+INFO:model.nn_model_wrapper:Checkpoint saved
+  5%|▌         | 10/200 [47:11<14:56:57, 283.25s/it]INFO:model.nn_model_wrapper:training 11  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 11: 0.1977263 :
+INFO:model.nn_model_wrapper:******train score at epoch 11: 0.04086 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 11: 0.2237415 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 11: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  6%|▌         | 11/200 [51:54<14:51:58, 283.17s/it]INFO:model.nn_model_wrapper:training 12  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 12: 0.1990669 :
+INFO:model.nn_model_wrapper:******train score at epoch 12: 0.07608 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 12: 0.2085718 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 12: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  6%|▌         | 12/200 [56:37<14:47:07, 283.13s/it]INFO:model.nn_model_wrapper:training 13  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 13: 0.1929758 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******train score at epoch 13: 0.00000 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 13: 0.1893304 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 13: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric is improved from -0.19921 to -0.18933
+INFO:model.nn_model_wrapper:Checkpoint saved
+  6%|▋         | 13/200 [1:01:20<14:42:11, 283.06s/it]INFO:model.nn_model_wrapper:training 14  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 14: 0.1910117 :
+INFO:model.nn_model_wrapper:******train score at epoch 14: 0.18908 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 14: 0.2062729 :
+INFO:model.nn_model_wrapper:******valid score at epoch 14: 0.04441 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  7%|▋         | 14/200 [1:06:02<14:37:15, 282.99s/it]INFO:model.nn_model_wrapper:training 15  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 15: 0.1940801 :
+INFO:model.nn_model_wrapper:******train score at epoch 15: 0.02692 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 15: 0.3066799 :
+INFO:model.nn_model_wrapper:******valid score at epoch 15: 0.22869 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  8%|▊         | 15/200 [1:10:45<14:32:21, 282.93s/it]INFO:model.nn_model_wrapper:training 16  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 16: 0.1851967 :
+INFO:model.nn_model_wrapper:******train score at epoch 16: 0.18214 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 16: 0.2004742 :
+INFO:model.nn_model_wrapper:******valid score at epoch 16: 0.15346 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  8%|▊         | 16/200 [1:15:28<14:27:14, 282.79s/it]INFO:model.nn_model_wrapper:training 17  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 17: 0.1859674 :
+INFO:model.nn_model_wrapper:******train score at epoch 17: 0.18133 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 17: 0.2061571 :
+INFO:model.nn_model_wrapper:******valid score at epoch 17: 0.17494 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  8%|▊         | 17/200 [1:20:10<14:21:58, 282.61s/it]INFO:model.nn_model_wrapper:training 18  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 18: 0.1896466 :
+INFO:model.nn_model_wrapper:******train score at epoch 18: 0.17356 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 18: 0.2469853 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 18: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+  9%|▉         | 18/200 [1:24:52<14:17:11, 282.59s/it]INFO:model.nn_model_wrapper:training 19  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 19: 0.1926523 :
+INFO:model.nn_model_wrapper:******train score at epoch 19: 0.12045 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 19: 0.2056889 :
+INFO:model.nn_model_wrapper:******valid score at epoch 19: -0.01508 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 10%|▉         | 19/200 [1:29:35<14:12:16, 282.52s/it]INFO:model.nn_model_wrapper:training 20  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 20: 0.1845455 :
+INFO:model.nn_model_wrapper:******train score at epoch 20: 0.10447 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 20: 0.2309882 :
+INFO:model.nn_model_wrapper:******valid score at epoch 20: 0.13071 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 10%|█         | 20/200 [1:34:17<14:07:24, 282.47s/it]INFO:model.nn_model_wrapper:training 21  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 21: 0.1807716 :
+INFO:model.nn_model_wrapper:******train score at epoch 21: 0.25733 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 21: 0.2060719 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 21: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 10%|█         | 21/200 [1:38:59<14:02:20, 282.35s/it]INFO:model.nn_model_wrapper:training 22  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 22: 0.1801027 :
+INFO:model.nn_model_wrapper:******train score at epoch 22: 0.09159 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 22: 0.2397711 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 22: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 11%|█         | 22/200 [1:43:41<13:57:18, 282.24s/it]INFO:model.nn_model_wrapper:training 23  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 23: 0.1843890 :
+INFO:model.nn_model_wrapper:******train score at epoch 23: 0.01875 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 23: 0.4632128 :
+INFO:model.nn_model_wrapper:******valid score at epoch 23: 0.03586 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 12%|█▏        | 23/200 [1:48:23<13:52:20, 282.15s/it]INFO:model.nn_model_wrapper:training 24  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 24: 0.1728309 :
+INFO:model.nn_model_wrapper:******train score at epoch 24: 0.16586 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 24: 0.2530317 :
+INFO:model.nn_model_wrapper:******valid score at epoch 24: 0.10681 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 12%|█▏        | 24/200 [1:53:05<13:47:25, 282.08s/it]INFO:model.nn_model_wrapper:training 25  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 25: 0.1742272 :
+INFO:model.nn_model_wrapper:******train score at epoch 25: 0.23192 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 25: 0.1845438 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 25: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric is improved from -0.18933 to -0.18454
+INFO:model.nn_model_wrapper:Checkpoint saved
+ 12%|█▎        | 25/200 [1:58:03<13:56:23, 286.76s/it]INFO:model.nn_model_wrapper:training 26  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 26: 0.1768372 :
+INFO:model.nn_model_wrapper:******train score at epoch 26: 0.15638 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 26: 0.1734361 :
+INFO:model.nn_model_wrapper:******valid score at epoch 26: 0.18560 :
+INFO:model.nn_model_wrapper:validation metric is improved from -0.18454 to -0.17344
+INFO:model.nn_model_wrapper:Checkpoint saved
+ 13%|█▎        | 26/200 [2:02:44<13:46:42, 285.07s/it]INFO:model.nn_model_wrapper:training 27  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 27: 0.1809941 :
+INFO:model.nn_model_wrapper:******train score at epoch 27: 0.17411 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 27: 0.2406077 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 27: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 14%|█▎        | 27/200 [2:07:25<13:38:55, 284.02s/it]INFO:model.nn_model_wrapper:training 28  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 28: 0.1847091 :
+INFO:model.nn_model_wrapper:******train score at epoch 28: 0.14264 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 28: 0.1689401 :
+INFO:model.nn_model_wrapper:******valid score at epoch 28: 0.13067 :
+INFO:model.nn_model_wrapper:validation metric is improved from -0.17344 to -0.16894
+INFO:model.nn_model_wrapper:Checkpoint saved
+ 14%|█▍        | 28/200 [2:12:07<13:32:05, 283.29s/it]INFO:model.nn_model_wrapper:training 29  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 29: 0.1744576 :
+INFO:model.nn_model_wrapper:******train score at epoch 29: 0.21198 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 29: 0.2352461 :
+INFO:model.nn_model_wrapper:******valid score at epoch 29: 0.32310 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 14%|█▍        | 29/200 [2:16:48<13:25:36, 282.67s/it]INFO:model.nn_model_wrapper:training 30  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 30: 0.1710063 :
+INFO:model.nn_model_wrapper:******train score at epoch 30: 0.24614 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 30: 0.1945866 :
+INFO:model.nn_model_wrapper:******valid score at epoch 30: 0.18072 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 15%|█▌        | 30/200 [2:21:30<13:19:48, 282.28s/it]INFO:model.nn_model_wrapper:training 31  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 31: 0.1709513 :
+INFO:model.nn_model_wrapper:******train score at epoch 31: 0.29331 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 31: 0.1773254 :
+INFO:model.nn_model_wrapper:******valid score at epoch 31: 0.33724 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 16%|█▌        | 31/200 [2:26:11<13:14:10, 281.96s/it]INFO:model.nn_model_wrapper:training 32  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 32: 0.1704489 :
+INFO:model.nn_model_wrapper:******train score at epoch 32: 0.25202 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 32: 0.2118190 :
+INFO:model.nn_model_wrapper:******valid score at epoch 32: 0.29739 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 16%|█▌        | 32/200 [2:30:52<13:08:55, 281.76s/it]INFO:model.nn_model_wrapper:training 33  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 33: 0.1686442 :
+INFO:model.nn_model_wrapper:******train score at epoch 33: 0.26894 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 33: 0.1549774 :
+INFO:model.nn_model_wrapper:******valid score at epoch 33: 0.32686 :
+INFO:model.nn_model_wrapper:validation metric is improved from -0.16894 to -0.15498
+INFO:model.nn_model_wrapper:Checkpoint saved
+ 16%|█▋        | 33/200 [2:35:33<13:03:46, 281.60s/it]INFO:model.nn_model_wrapper:training 34  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 34: 0.1706945 :
+INFO:model.nn_model_wrapper:******train score at epoch 34: 0.33425 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 34: 0.1694306 :
+INFO:model.nn_model_wrapper:******valid score at epoch 34: 0.29905 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 17%|█▋        | 34/200 [2:40:14<12:58:36, 281.42s/it]INFO:model.nn_model_wrapper:training 35  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 35: 0.1763114 :
+INFO:model.nn_model_wrapper:******train score at epoch 35: 0.27410 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 35: 0.1703741 :
+INFO:model.nn_model_wrapper:******valid score at epoch 35: 0.37246 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 18%|█▊        | 35/200 [2:44:55<12:53:18, 281.20s/it]INFO:model.nn_model_wrapper:training 36  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 36: 0.1667793 :
+INFO:model.nn_model_wrapper:******train score at epoch 36: 0.29918 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 36: 0.2008736 :
+INFO:model.nn_model_wrapper:******valid score at epoch 36: 0.31402 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 18%|█▊        | 36/200 [2:49:36<12:48:16, 281.07s/it]INFO:model.nn_model_wrapper:training 37  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 37: 0.1636300 :
+INFO:model.nn_model_wrapper:******train score at epoch 37: 0.39156 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 37: 0.1652765 :
+INFO:model.nn_model_wrapper:******valid score at epoch 37: 0.33210 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 18%|█▊        | 37/200 [2:54:16<12:43:09, 280.92s/it]INFO:model.nn_model_wrapper:training 38  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 38: 0.1662351 :
+INFO:model.nn_model_wrapper:******train score at epoch 38: 0.36680 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 38: 0.2388668 :
+INFO:model.nn_model_wrapper:******valid score at epoch 38: 0.26272 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 19%|█▉        | 38/200 [2:58:57<12:38:03, 280.76s/it]INFO:model.nn_model_wrapper:training 39  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 39: 0.1723687 :
+INFO:model.nn_model_wrapper:******train score at epoch 39: 0.33720 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 39: 0.1961187 :
+INFO:model.nn_model_wrapper:******valid score at epoch 39: 0.42129 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 20%|█▉        | 39/200 [3:03:37<12:32:57, 280.61s/it]INFO:model.nn_model_wrapper:training 40  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 40: 0.1619782 :
+INFO:model.nn_model_wrapper:******train score at epoch 40: 0.33167 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 40: 0.4932916 :
+INFO:model.nn_model_wrapper:******valid score at epoch 40: 0.19115 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 20%|██        | 40/200 [3:08:26<12:34:52, 283.08s/it]INFO:model.nn_model_wrapper:training 41  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 41: 0.1658884 :
+INFO:model.nn_model_wrapper:******train score at epoch 41: 0.36995 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 41: 0.1674600 :
+INFO:model.nn_model_wrapper:******valid score at epoch 41: 0.32397 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 20%|██        | 41/200 [3:13:05<12:27:19, 282.01s/it]INFO:model.nn_model_wrapper:training 42  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 42: 0.1577478 :
+INFO:model.nn_model_wrapper:******train score at epoch 42: 0.38061 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 42: 0.1875279 :
+INFO:model.nn_model_wrapper:******valid score at epoch 42: 0.33102 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 21%|██        | 42/200 [3:17:46<12:21:45, 281.68s/it]INFO:model.nn_model_wrapper:training 43  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 43: 0.1590208 :
+INFO:model.nn_model_wrapper:******train score at epoch 43: 0.42278 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 43: 0.1824165 :
+/opt/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:543: RuntimeWarning: invalid value encountered in double_scalars
+  mcc = cov_ytyp / np.sqrt(cov_ytyt * cov_ypyp)
+INFO:model.nn_model_wrapper:******valid score at epoch 43: 0.00000 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 22%|██▏       | 43/200 [3:22:26<12:15:41, 281.16s/it]INFO:model.nn_model_wrapper:training 44  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 44: 0.1643308 :
+INFO:model.nn_model_wrapper:******train score at epoch 44: 0.42296 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 44: 0.1642202 :
+INFO:model.nn_model_wrapper:******valid score at epoch 44: 0.39747 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 22%|██▏       | 44/200 [3:27:06<12:10:07, 280.82s/it]INFO:model.nn_model_wrapper:training 45  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 45: 0.1578735 :
+INFO:model.nn_model_wrapper:******train score at epoch 45: 0.39437 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 45: 0.1638245 :
+INFO:model.nn_model_wrapper:******valid score at epoch 45: 0.39305 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 22%|██▎       | 45/200 [3:31:46<12:04:34, 280.48s/it]INFO:model.nn_model_wrapper:training 46  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 46: 0.1535187 :
+INFO:model.nn_model_wrapper:******train score at epoch 46: 0.43763 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 46: 0.1560770 :
+INFO:model.nn_model_wrapper:******valid score at epoch 46: 0.39850 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 23%|██▎       | 46/200 [3:36:26<11:59:21, 280.27s/it]INFO:model.nn_model_wrapper:training 47  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 47: 0.1579258 :
+INFO:model.nn_model_wrapper:******train score at epoch 47: 0.39726 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 47: 0.1742530 :
+INFO:model.nn_model_wrapper:******valid score at epoch 47: 0.28555 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 24%|██▎       | 47/200 [3:41:05<11:54:12, 280.08s/it]INFO:model.nn_model_wrapper:training 48  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 48: 0.1499540 :
+INFO:model.nn_model_wrapper:******train score at epoch 48: 0.44022 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 48: 0.1702909 :
+INFO:model.nn_model_wrapper:******valid score at epoch 48: 0.37246 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 24%|██▍       | 48/200 [3:45:47<11:50:24, 280.43s/it]INFO:model.nn_model_wrapper:training 49  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 49: 0.1566992 :
+INFO:model.nn_model_wrapper:******train score at epoch 49: 0.40790 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 49: 0.1791214 :
+INFO:model.nn_model_wrapper:******valid score at epoch 49: 0.33724 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 24%|██▍       | 49/200 [3:50:26<11:44:57, 280.12s/it]INFO:model.nn_model_wrapper:training 50  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 50: 0.1593157 :
+INFO:model.nn_model_wrapper:******train score at epoch 50: 0.38623 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 50: 0.1553408 :
+INFO:model.nn_model_wrapper:******valid score at epoch 50: 0.34943 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 25%|██▌       | 50/200 [3:55:05<11:39:40, 279.87s/it]INFO:model.nn_model_wrapper:training 51  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 51: 0.1540298 :
+INFO:model.nn_model_wrapper:******train score at epoch 51: 0.43267 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 51: 0.1623642 :
+INFO:model.nn_model_wrapper:******valid score at epoch 51: 0.40515 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 26%|██▌       | 51/200 [3:59:45<11:34:37, 279.72s/it]INFO:model.nn_model_wrapper:training 52  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 52: 0.1574424 :
+INFO:model.nn_model_wrapper:******train score at epoch 52: 0.35066 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 52: 0.1664417 :
+INFO:model.nn_model_wrapper:******valid score at epoch 52: 0.38340 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 26%|██▌       | 52/200 [4:04:24<11:29:40, 279.60s/it]INFO:model.nn_model_wrapper:training 53  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 53: 0.1620749 :
+INFO:model.nn_model_wrapper:******train score at epoch 53: 0.36995 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 53: 0.1924548 :
+INFO:model.nn_model_wrapper:******valid score at epoch 53: 0.29739 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 26%|██▋       | 53/200 [4:09:03<11:24:43, 279.48s/it]INFO:model.nn_model_wrapper:training 54  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 54: 0.1530043 :
+INFO:model.nn_model_wrapper:******train score at epoch 54: 0.46274 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 54: 0.1674350 :
+INFO:model.nn_model_wrapper:******valid score at epoch 54: 0.36429 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 27%|██▋       | 54/200 [4:13:42<11:19:57, 279.43s/it]INFO:model.nn_model_wrapper:training 55  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 55: 0.1540714 :
+INFO:model.nn_model_wrapper:******train score at epoch 55: 0.41679 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 55: 0.1664059 :
+INFO:model.nn_model_wrapper:******valid score at epoch 55: 0.45976 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 28%|██▊       | 55/200 [4:18:22<11:15:19, 279.44s/it]INFO:model.nn_model_wrapper:training 56  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 56: 0.1515444 :
+INFO:model.nn_model_wrapper:******train score at epoch 56: 0.40937 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 56: 0.1838584 :
+INFO:model.nn_model_wrapper:******valid score at epoch 56: 0.33102 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 28%|██▊       | 56/200 [4:23:02<11:10:48, 279.51s/it]INFO:model.nn_model_wrapper:training 57  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 57: 0.1542579 :
+INFO:model.nn_model_wrapper:******train score at epoch 57: 0.45227 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 57: 0.1630918 :
+INFO:model.nn_model_wrapper:******valid score at epoch 57: 0.36426 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 28%|██▊       | 57/200 [4:27:41<11:06:16, 279.56s/it]INFO:model.nn_model_wrapper:training 58  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 58: 0.1510935 :
+INFO:model.nn_model_wrapper:******train score at epoch 58: 0.41831 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 58: 0.4347561 :
+INFO:model.nn_model_wrapper:******valid score at epoch 58: 0.25890 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 29%|██▉       | 58/200 [4:32:22<11:02:12, 279.80s/it]INFO:model.nn_model_wrapper:training 59  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 59: 0.1515241 :
+INFO:model.nn_model_wrapper:******train score at epoch 59: 0.41272 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 59: 0.1876205 :
+INFO:model.nn_model_wrapper:******valid score at epoch 59: 0.36253 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 30%|██▉       | 59/200 [4:37:01<10:56:57, 279.56s/it]INFO:model.nn_model_wrapper:training 60  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 60: 0.1599606 :
+INFO:model.nn_model_wrapper:******train score at epoch 60: 0.32123 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 60: 0.1792954 :
+INFO:model.nn_model_wrapper:******valid score at epoch 60: 0.37903 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 30%|███       | 60/200 [4:41:40<10:52:02, 279.45s/it]INFO:model.nn_model_wrapper:training 61  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 61: 0.1492871 :
+INFO:model.nn_model_wrapper:******train score at epoch 61: 0.44831 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 61: 0.1554826 :
+INFO:model.nn_model_wrapper:******valid score at epoch 61: 0.35026 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 30%|███       | 61/200 [4:46:19<10:47:08, 279.34s/it]INFO:model.nn_model_wrapper:training 62  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 62: 0.1456431 :
+INFO:model.nn_model_wrapper:******train score at epoch 62: 0.46981 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 62: 0.7036770 :
+INFO:model.nn_model_wrapper:******valid score at epoch 62: 0.15616 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 31%|███       | 62/200 [4:50:58<10:42:26, 279.32s/it]INFO:model.nn_model_wrapper:training 63  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 63: 0.1467711 :
+INFO:model.nn_model_wrapper:******train score at epoch 63: 0.44505 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 63: 0.1916059 :
+INFO:model.nn_model_wrapper:******valid score at epoch 63: 0.39850 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 32%|███▏      | 63/200 [4:55:37<10:37:44, 279.30s/it]INFO:model.nn_model_wrapper:training 64  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 64: 0.1493376 :
+INFO:model.nn_model_wrapper:******train score at epoch 64: 0.40628 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 64: 0.1592503 :
+INFO:model.nn_model_wrapper:******valid score at epoch 64: 0.42521 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 32%|███▏      | 64/200 [5:00:17<10:33:12, 279.36s/it]INFO:model.nn_model_wrapper:training 65  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 65: 0.1502041 :
+INFO:model.nn_model_wrapper:******train score at epoch 65: 0.43849 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 65: 0.1871249 :
+INFO:model.nn_model_wrapper:******valid score at epoch 65: 0.28373 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 32%|███▎      | 65/200 [5:04:56<10:28:31, 279.34s/it]INFO:model.nn_model_wrapper:training 66  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 66: 0.1490563 :
+INFO:model.nn_model_wrapper:******train score at epoch 66: 0.44294 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 66: 0.1456582 :
+INFO:model.nn_model_wrapper:******valid score at epoch 66: 0.37865 :
+INFO:model.nn_model_wrapper:validation metric is improved from -0.15498 to -0.14566
+INFO:model.nn_model_wrapper:Checkpoint saved
+ 33%|███▎      | 66/200 [5:09:36<10:23:57, 279.39s/it]INFO:model.nn_model_wrapper:training 67  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 67: 0.1441348 :
+INFO:model.nn_model_wrapper:******train score at epoch 67: 0.43773 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 67: 0.1672695 :
+INFO:model.nn_model_wrapper:******valid score at epoch 67: 0.31402 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 34%|███▎      | 67/200 [5:14:15<10:19:14, 279.36s/it]INFO:model.nn_model_wrapper:training 68  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 68: 0.1369811 :
+INFO:model.nn_model_wrapper:******train score at epoch 68: 0.47970 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 68: 0.1916877 :
+INFO:model.nn_model_wrapper:******valid score at epoch 68: 0.32493 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 34%|███▍      | 68/200 [5:18:54<10:14:26, 279.30s/it]INFO:model.nn_model_wrapper:training 69  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 69: 0.1467327 :
+INFO:model.nn_model_wrapper:******train score at epoch 69: 0.43573 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 69: 0.1464206 :
+INFO:model.nn_model_wrapper:******valid score at epoch 69: 0.36613 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 34%|███▍      | 69/200 [5:23:33<10:09:42, 279.26s/it]INFO:model.nn_model_wrapper:training 70  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 70: 0.1482757 :
+INFO:model.nn_model_wrapper:******train score at epoch 70: 0.42850 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 70: 0.1552020 :
+INFO:model.nn_model_wrapper:******valid score at epoch 70: 0.47176 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 35%|███▌      | 70/200 [5:28:12<10:04:57, 279.21s/it]INFO:model.nn_model_wrapper:training 71  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 71: 0.1467831 :
+INFO:model.nn_model_wrapper:******train score at epoch 71: 0.44505 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 71: 0.1556678 :
+INFO:model.nn_model_wrapper:******valid score at epoch 71: 0.43027 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 36%|███▌      | 71/200 [5:32:51<10:00:05, 279.12s/it]INFO:model.nn_model_wrapper:training 72  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 72: 0.1358922 :
+INFO:model.nn_model_wrapper:******train score at epoch 72: 0.46377 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 72: 0.1636258 :
+INFO:model.nn_model_wrapper:******valid score at epoch 72: 0.40012 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 36%|███▌      | 72/200 [5:37:30<9:55:23, 279.09s/it] INFO:model.nn_model_wrapper:training 73  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 73: 0.1390302 :
+INFO:model.nn_model_wrapper:******train score at epoch 73: 0.50403 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 73: 0.1662008 :
+INFO:model.nn_model_wrapper:******valid score at epoch 73: 0.34134 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 36%|███▋      | 73/200 [5:42:09<9:50:40, 279.06s/it]INFO:model.nn_model_wrapper:training 74  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 74: 0.1386245 :
+INFO:model.nn_model_wrapper:******train score at epoch 74: 0.47276 :
+INFO:model.nn_model_wrapper:******valid loss at epoch 74: 0.1759214 :
+INFO:model.nn_model_wrapper:******valid score at epoch 74: 0.30178 :
+INFO:model.nn_model_wrapper:validation metric isn't improved
+ 37%|███▋      | 74/200 [5:46:48<9:46:00, 279.05s/it]INFO:model.nn_model_wrapper:training 75  / 200 epochs
+INFO:model.nn_model_wrapper:******train loss at epoch 75: 0.1389762 :
+INFO:model.nn_model_wrapper:******train score at epoch 75: 0.41769 :
