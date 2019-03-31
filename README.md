@@ -1,5 +1,5 @@
 
-# My Bronze Solution for [Kaggle VSB Power Line Fault Detection](https://www.kaggle.com/c/vsb-power-line-fault-detection/submissions?sortBy=date&group=all&page=1)
+# My Solution for [Kaggle VSB Power Line Fault Detection](https://www.kaggle.com/c/vsb-power-line-fault-detection/submissions?sortBy=date&group=all&page=1)
 
 
 This repository is for my solution for the kaggle competition.  
